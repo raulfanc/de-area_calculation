@@ -36,3 +36,15 @@ To demonstrate not just technical ability but also the approach to software deve
 
 10. Ensure the solution is scalable, meaning it can handle large volumes of data without a significant decrease in performance.
 
+## Bonus Points
+- Implement a Prefect flow to manage the data pipeline.
+- Implement parallel processing to optimize the ingestion and computation tasks.
+- Implement data quality checks to handle missing or incorrect values in the JSON data.
+- Implement unit tests to ensure the correct functionality of the application.
+- Implement a modular architecture to facilitate easy addition or modification of data sources, error handling procedures, data quality checks, etc.
+- Implement a Dockerfile to containerize the application.
+- Implement a CI/CD pipeline to automate the testing and deployment of the application.
+- Implement a monitoring solution to track the performance of the application.
+- Implement a logging solution to track the execution of the application.
+- Develop code with consideration for RESTful API design principles.
+

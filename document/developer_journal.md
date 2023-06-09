@@ -1,3 +1,11 @@
+09 June 2023
+- core function development for [`area_calculation.py`](../src/v2/area_calculation.py)
+- core function development for [`shape_management.py`](../src/v2/shape_management.py)
+
+
+
+
+
 - **Data Extraction**: The data source for this challenge can vary. The application should be able to ingest JSON data from different sources, including:
     - Direct API calls
     - Loading JSON files from an S3 bucket

@@ -2,13 +2,10 @@
 modularize this code into two parts: 
 - managing shapes (shape definitions and a factory for creating them)
 - calculating the total area from JSON data.
+- run the code from the command line from home directory, treat it as a module not a python file
 
 ```bash
-cd v2/
+python -m src.v2.area_calculation
 ```
 
-```bash
-python area_calculation.py
-```
-
-![](../Pictures/Pasted%20image%2020230610004615.png)
+![](../../Pictures/Pasted%20image%2020230610020003.png)

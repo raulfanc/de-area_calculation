@@ -1,5 +1,5 @@
 import json
-from shape_management import ShapeFactory
+from .shape_management import ShapeFactory
 
 
 def calculate_total_area(json_shapes):
@@ -22,7 +22,9 @@ if __name__ == '__main__':
         '{"type": "triangle", "base": 2, "height": 3}',
         '{"type": "circle", "radius": 4}',
         '{"type": "rectangle", "width": 5, "height": 5}',
-        '{"type": "very round", "width": 5, "height": 5}',    # unsupported shape, not calculated in total area
+        '{"type": "very round", "width": 5, "height": 5}',  # unsupported shape, not calculated in total area
     ]
 
-    print(calculate_total_area(json_shapes_data))
+    # print the total area of all shapes with the format of 2 decimal places
+    print(f"{calculate_total_area(json_shapes_data):.2f}")
+    # print(calculate_total_area(json_shapes_data))
