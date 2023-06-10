@@ -1,0 +1,1000 @@
+{"type": "rectangle", "width": 8, "height": 4}
+{"type": "triangle", "base": 7, "height": 1}
+{"type": "triangle", "base": 5, "height": 6}
+{"type": "triangle", "base": 7, "height": 9}
+{"type": "rectangle", "width": 2, "height": 7}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 8, "height": 4}
+{"type": "triangle", "base": 4, "height": 3}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 1, "height": 9}
+{"type": "triangle", "base": 4, "height": 3}
+{"type": "rectangle", "width": 1, "height": 1}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 3, "height": 2}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 6, "height": 10}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 3, "height": 1}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 6, "height": 7}
+{"type": "triangle", "base": 5, "height": 6}
+{"type": "triangle", "base": 10, "height": 8}
+{"type": "rectangle", "width": 6, "height": 2}
+{"type": "rectangle", "width": 10, "height": 7}
+{"type": "triangle", "base": 1, "height": 10}
+{"type": "rectangle", "width": 10, "height": 3}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 9, "height": 9}
+{"type": "rectangle", "width": 6, "height": 9}
+{"type": "triangle", "base": 5, "height": 3}
+{"type": "rectangle", "width": 4, "height": 7}
+{"type": "rectangle", "width": 3, "height": 3}
+{"type": "circle", "radius": 3}
+{"type": "rectangle", "width": 6, "height": 6}
+{"type": "triangle", "base": 6, "height": 4}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 6, "height": 1}
+{"type": "rectangle", "width": 4, "height": 9}
+{"type": "triangle", "base": 4, "height": 1}
+{"type": "triangle", "base": 3, "height": 6}
+{"type": "rectangle", "width": 6, "height": 5}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "circle", "radius": 1}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 2, "height": 4}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 6, "height": 1}
+{"type": "triangle", "base": 8, "height": 3}
+{"type": "triangle", "base": 3, "height": 8}
+{"type": "rectangle", "width": 9, "height": 7}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 1, "height": 1}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 9, "height": 8}
+{"type": "rectangle", "width": 7, "height": 5}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 3, "height": 8}
+{"type": "rectangle", "width": 7, "height": 6}
+{"type": "circle", "radius": 3}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "triangle", "base": 10, "height": 10}
+{"type": "triangle", "base": 4, "height": 1}
+{"type": "rectangle", "width": 5, "height": 1}
+{"type": "rectangle", "width": 4, "height": 7}
+{"type": "triangle", "base": 8, "height": 3}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 3, "height": 3}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "triangle", "base": 5, "height": 3}
+{"type": "triangle", "base": 10, "height": 4}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 2, "height": 1}
+{"type": "circle", "radius": 8}
+{"type": "triangle", "base": 4, "height": 2}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 9, "height": 5}
+{"type": "rectangle", "width": 7, "height": 3}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 1}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "triangle", "base": 5, "height": 2}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 10, "height": 5}
+{"type": "triangle", "base": 2, "height": 3}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 1, "height": 5}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 3, "height": 5}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 1, "height": 8}
+{"type": "rectangle", "width": 4, "height": 4}
+{"type": "triangle", "base": 1, "height": 9}
+{"type": "rectangle", "width": 7, "height": 4}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 5, "height": 10}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 3, "height": 6}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 10, "height": 10}
+{"type": "rectangle", "width": 7, "height": 1}
+{"type": "triangle", "base": 7, "height": 8}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 3, "height": 4}
+{"type": "rectangle", "width": 5, "height": 1}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 1, "height": 3}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 1, "height": 7}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 3}
+{"type": "rectangle", "width": 2, "height": 5}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 1, "height": 2}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 8, "height": 1}
+{"type": "triangle", "base": 1, "height": 5}
+{"type": "rectangle", "width": 5, "height": 4}
+{"type": "rectangle", "width": 2, "height": 5}
+{"type": "rectangle", "width": 8, "height": 9}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 8, "height": 8}
+{"type": "triangle", "base": 5, "height": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 7, "height": 6}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 2, "height": 4}
+{"type": "rectangle", "width": 10, "height": 9}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 1, "height": 3}
+{"type": "triangle", "base": 9, "height": 1}
+{"type": "rectangle", "width": 9, "height": 6}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 5, "height": 7}
+{"type": "triangle", "base": 8, "height": 2}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 9, "height": 1}
+{"type": "rectangle", "width": 3, "height": 2}
+{"type": "triangle", "base": 4, "height": 8}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "rectangle", "width": 4, "height": 8}
+{"type": "triangle", "base": 4, "height": 8}
+{"type": "rectangle", "width": 8, "height": 2}
+{"type": "triangle", "base": 2, "height": 8}
+{"type": "rectangle", "width": 1, "height": 3}
+{"type": "rectangle", "width": 5, "height": 4}
+{"type": "triangle", "base": 9, "height": 6}
+{"type": "triangle", "base": 5, "height": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 3, "height": 3}
+{"type": "rectangle", "width": 6, "height": 6}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 8, "height": 2}
+{"type": "rectangle", "width": 2, "height": 3}
+{"type": "rectangle", "width": 5, "height": 10}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 3, "height": 4}
+{"type": "rectangle", "width": 1, "height": 6}
+{"type": "rectangle", "width": 3, "height": 9}
+{"type": "rectangle", "width": 1, "height": 1}
+{"type": "triangle", "base": 1, "height": 6}
+{"type": "rectangle", "width": 3, "height": 10}
+{"type": "triangle", "base": 6, "height": 2}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 10, "height": 8}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "triangle", "base": 3, "height": 8}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "rectangle", "width": 9, "height": 6}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 1, "height": 5}
+{"type": "rectangle", "width": 10, "height": 8}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 4, "height": 7}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 2, "height": 10}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "rectangle", "width": 3, "height": 4}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 6, "height": 2}
+{"type": "triangle", "base": 2, "height": 9}
+{"type": "triangle", "base": 6, "height": 1}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 9, "height": 4}
+{"type": "triangle", "base": 4, "height": 6}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 10, "height": 8}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 5, "height": 5}
+{"type": "rectangle", "width": 10, "height": 10}
+{"type": "rectangle", "width": 7, "height": 8}
+{"type": "triangle", "base": 6, "height": 2}
+{"type": "rectangle", "width": 10, "height": 3}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 4, "height": 2}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 3, "height": 6}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 6, "height": 5}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 4, "height": 7}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 2, "height": 9}
+{"type": "rectangle", "width": 9, "height": 9}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 1, "height": 3}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 7, "height": 2}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 3, "height": 6}
+{"type": "circle", "radius": 3}
+{"type": "rectangle", "width": 10, "height": 10}
+{"type": "rectangle", "width": 2, "height": 8}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 10, "height": 4}
+{"type": "triangle", "base": 2, "height": 8}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 3, "height": 10}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 10, "height": 5}
+{"type": "triangle", "base": 9, "height": 1}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 8, "height": 4}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 10, "height": 10}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 10, "height": 7}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 4, "height": 10}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 5, "height": 10}
+{"type": "rectangle", "width": 5, "height": 6}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 2, "height": 9}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": 8, "height": 5}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 1, "height": 5}
+{"type": "triangle", "base": 9, "height": 4}
+{"type": "triangle", "base": 9, "height": 2}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "rectangle", "width": 8, "height": 5}
+{"type": "triangle", "base": 8, "height": 9}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "triangle", "base": 10, "height": 9}
+{"type": "rectangle", "width": 8, "height": 5}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 9, "height": 10}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "triangle", "base": 3, "height": 1}
+{"type": "triangle", "base": 2, "height": 1}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 8, "height": 5}
+{"type": "circle", "radius": 3}
+{"type": "rectangle", "width": 4, "height": 10}
+{"type": "triangle", "base": 8, "height": 10}
+{"type": "triangle", "base": 10, "height": 6}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 6, "height": 10}
+{"type": "rectangle", "width": 6, "height": 4}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 3, "height": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 5, "height": 6}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 8, "height": 10}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 10, "height": 9}
+{"type": "rectangle", "width": 7, "height": 8}
+{"type": "triangle", "base": 1, "height": 5}
+{"type": "triangle", "base": 3, "height": 3}
+{"type": "triangle", "base": 9, "height": 9}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 3, "height": 3}
+{"type": "triangle", "base": 5, "height": 6}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 9, "height": 5}
+{"type": "triangle", "base": 7, "height": 7}
+{"type": "rectangle", "width": 5, "height": 7}
+{"type": "triangle", "base": 6, "height": 7}
+{"type": "rectangle", "width": 1, "height": 10}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 9, "height": 9}
+{"type": "triangle", "base": 4, "height": 10}
+{"type": "triangle", "base": 1, "height": 7}
+{"type": "rectangle", "width": 1, "height": 6}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 9, "height": 3}
+{"type": "triangle", "base": 9, "height": 7}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "triangle", "base": 6, "height": 1}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 8, "height": 2}
+{"type": "triangle", "base": 6, "height": 9}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 4, "height": 8}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "triangle", "base": 5, "height": 1}
+{"type": "circle", "radius": 7}
+{"type": "triangle", "base": 5, "height": 6}
+{"type": "rectangle", "width": 10, "height": 9}
+{"type": "triangle", "base": 1, "height": 10}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "triangle", "base": 7, "height": 10}
+{"type": "rectangle", "width": 7, "height": 3}
+{"type": "triangle", "base": 4, "height": 5}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 3, "height": 8}
+{"type": "rectangle", "width": 8, "height": 10}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 4, "height": 4}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 4, "height": 4}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 10, "height": 2}
+{"type": "triangle", "base": 9, "height": 5}
+{"type": "triangle", "base": 3, "height": 1}
+{"type": "rectangle", "width": 5, "height": 2}
+{"type": "rectangle", "width": 3, "height": 2}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 5, "height": 3}
+{"type": "triangle", "base": 1, "height": 1}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 5, "height": 7}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 7, "height": 2}
+{"type": "rectangle", "width": 6, "height": 1}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 7, "height": 10}
+{"type": "rectangle", "width": 5, "height": 10}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 2, "height": 6}
+{"type": "triangle", "base": 8, "height": 3}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 6, "height": 7}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 4, "height": 9}
+{"type": "rectangle", "width": 10, "height": 2}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 8}
+{"type": "triangle", "base": 7, "height": 9}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 3, "height": 10}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 3, "height": 8}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 7, "height": 8}
+{"type": "rectangle", "width": 5, "height": 10}
+{"type": "rectangle", "width": 9, "height": 8}
+{"type": "triangle", "base": 7, "height": 10}
+{"type": "triangle", "base": 5, "height": 8}
+{"type": "rectangle", "width": 10, "height": 8}
+{"type": "triangle", "base": 9, "height": 1}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 9, "height": 9}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 9, "height": 10}
+{"type": "rectangle", "width": 6, "height": 1}
+{"type": "rectangle", "width": 10, "height": 2}
+{"type": "triangle", "base": 1, "height": 8}
+{"type": "rectangle", "width": 10, "height": 6}
+{"type": "rectangle", "width": 1, "height": 8}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 7, "height": 4}
+{"type": "triangle", "base": 9, "height": 9}
+{"type": "triangle", "base": 9, "height": 3}
+{"type": "rectangle", "width": 1, "height": 1}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 9, "height": 4}
+{"type": "rectangle", "width": 3, "height": 7}
+{"type": "rectangle", "width": 7, "height": 5}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 10, "height": 7}
+{"type": "rectangle", "width": 4, "height": 8}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 4, "height": 8}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 8, "height": 10}
+{"type": "rectangle", "width": 7, "height": 3}
+{"type": "rectangle", "width": 10, "height": 7}
+{"type": "rectangle", "width": 10, "height": 10}
+{"type": "rectangle", "width": 10, "height": 2}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 1, "height": 6}
+{"type": "rectangle", "width": 3, "height": 4}
+{"type": "triangle", "base": 1, "height": 2}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 9, "height": 2}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 7, "height": 5}
+{"type": "triangle", "base": 10, "height": 3}
+{"type": "rectangle", "width": 5, "height": 8}
+{"type": "rectangle", "width": 6, "height": 5}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 7, "height": 3}
+{"type": "rectangle", "width": 5, "height": 4}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 4, "height": 10}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 10, "height": 6}
+{"type": "rectangle", "width": 9, "height": 8}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 8}
+{"type": "triangle", "base": 1, "height": 5}
+{"type": "rectangle", "width": 9, "height": 9}
+{"type": "rectangle", "width": 1, "height": 1}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 4, "height": 3}
+{"type": "rectangle", "width": 2, "height": 6}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 9, "height": 1}
+{"type": "triangle", "base": 1, "height": 8}
+{"type": "rectangle", "width": 3, "height": 9}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 10, "height": 10}
+{"type": "triangle", "base": 4, "height": 6}
+{"type": "triangle", "base": 5, "height": 10}
+{"type": "rectangle", "width": 4, "height": 4}
+{"type": "rectangle", "width": 2, "height": 5}
+{"type": "triangle", "base": 5, "height": 9}
+{"type": "triangle", "base": 3, "height": 4}
+{"type": "triangle", "base": 5, "height": 10}
+{"type": "rectangle", "width": 6, "height": 8}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 5, "height": 9}
+{"type": "triangle", "base": 3, "height": 9}
+{"type": "rectangle", "width": 9, "height": 5}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 5, "height": 4}
+{"type": "rectangle", "width": 8, "height": 8}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 6, "height": 7}
+{"type": "triangle", "base": 6, "height": 7}
+{"type": "circle", "radius": 3}
+{"type": "rectangle", "width": 3, "height": 3}
+{"type": "rectangle", "width": 3, "height": 6}
+{"type": "triangle", "base": 10, "height": 9}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 6, "height": 10}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 3, "height": 7}
+{"type": "rectangle", "width": 1, "height": 5}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 3, "height": 2}
+{"type": "rectangle", "width": 5, "height": 9}
+{"type": "triangle", "base": 4, "height": 1}
+{"type": "rectangle", "width": 10, "height": 9}
+{"type": "rectangle", "width": 2, "height": 3}
+{"type": "triangle", "base": 1, "height": 3}
+{"type": "rectangle", "width": 2, "height": 9}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 2, "height": 8}
+{"type": "triangle", "base": 3, "height": 10}
+{"type": "rectangle", "width": 9, "height": 8}
+{"type": "rectangle", "width": 4, "height": 9}
+{"type": "rectangle", "width": 6, "height": 3}
+{"type": "circle", "radius": 8}
+{"type": "triangle", "base": 3, "height": 4}
+{"type": "rectangle", "width": 10, "height": 5}
+{"type": "triangle", "base": 3, "height": 6}
+{"type": "triangle", "base": 8, "height": 8}
+{"type": "triangle", "base": 8, "height": 2}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 10, "height": 6}
+{"type": "triangle", "base": 4, "height": 3}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": 9, "height": 6}
+{"type": "triangle", "base": 3, "height": 7}
+{"type": "triangle", "base": 9, "height": 7}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 8, "height": 5}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 1, "height": 5}
+{"type": "rectangle", "width": 9, "height": 10}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 4, "height": 5}
+{"type": "rectangle", "width": 4, "height": 8}
+{"type": "triangle", "base": 9, "height": 6}
+{"type": "rectangle", "width": 1, "height": 10}
+{"type": "rectangle", "width": 9, "height": 7}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 7}
+{"type": "triangle", "base": 10, "height": 3}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 8, "height": 1}
+{"type": "rectangle", "width": 2, "height": 9}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 5, "height": 8}
+{"type": "circle", "radius": 2}
+{"type": "rectangle", "width": 5, "height": 1}
+{"type": "triangle", "base": 5, "height": 4}
+{"type": "rectangle", "width": 3, "height": 4}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 7}
+{"type": "triangle", "base": 2, "height": 8}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 1, "height": 9}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 3, "height": 1}
+{"type": "circle", "radius": 7}
+{"type": "triangle", "base": 4, "height": 7}
+{"type": "triangle", "base": 9, "height": 3}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 4, "height": 7}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 4, "height": 6}
+{"type": "triangle", "base": 1, "height": 10}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 5, "height": 10}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 2, "height": 4}
+{"type": "triangle", "base": 3, "height": 2}
+{"type": "triangle", "base": 1, "height": 5}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 6, "height": 10}
+{"type": "triangle", "base": 4, "height": 2}
+{"type": "triangle", "base": 1, "height": 4}
+{"type": "triangle", "base": 4, "height": 7}
+{"type": "rectangle", "width": 7, "height": 9}
+{"type": "triangle", "base": 3, "height": 9}
+{"type": "rectangle", "width": 9, "height": 7}
+{"type": "rectangle", "width": 7, "height": 2}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 1, "height": 6}
+{"type": "rectangle", "width": 6, "height": 2}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 2, "height": 3}
+{"type": "rectangle", "width": 6, "height": 1}
+{"type": "circle", "radius": 4}
+{"type": "rectangle", "width": 7, "height": 10}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 7, "height": 2}
+{"type": "rectangle", "width": 5, "height": 3}
+{"type": "triangle", "base": 3, "height": 6}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 6, "height": 9}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 6, "height": 2}
+{"type": "triangle", "base": 3, "height": 6}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 6, "height": 5}
+{"type": "triangle", "base": 4, "height": 7}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 1, "height": 10}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 10, "height": 5}
+{"type": "triangle", "base": 10, "height": 1}
+{"type": "triangle", "base": 6, "height": 8}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 8, "height": 10}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "rectangle", "width": 7, "height": 4}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 6, "height": 10}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 6, "height": 2}
+{"type": "triangle", "base": 6, "height": 2}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 9, "height": 9}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 7, "height": 9}
+{"type": "circle", "radius": 5}
+{"type": "triangle", "base": 3, "height": 9}
+{"type": "triangle", "base": 4, "height": 10}
+{"type": "rectangle", "width": 1, "height": 6}
+{"type": "triangle", "base": 1, "height": 10}
+{"type": "triangle", "base": 5, "height": 9}
+{"type": "triangle", "base": 5, "height": 4}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 3, "height": 3}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 7, "height": 3}
+{"type": "rectangle", "width": 7, "height": 9}
+{"type": "rectangle", "width": 10, "height": 6}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 1, "height": 10}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 6, "height": 5}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 1, "height": 7}
+{"type": "triangle", "base": 1, "height": 3}
+{"type": "triangle", "base": 6, "height": 2}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 6, "height": 8}
+{"type": "rectangle", "width": 4, "height": 4}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 5, "height": 6}
+{"type": "triangle", "base": 1, "height": 8}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "triangle", "base": 3, "height": 10}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 9, "height": 2}
+{"type": "rectangle", "width": 2, "height": 10}
+{"type": "rectangle", "width": 2, "height": 4}
+{"type": "rectangle", "width": 6, "height": 10}
+{"type": "rectangle", "width": 9, "height": 5}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 5, "height": 5}
+{"type": "triangle", "base": 9, "height": 7}
+{"type": "triangle", "base": 10, "height": 8}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "triangle", "base": 10, "height": 7}
+{"type": "triangle", "base": 10, "height": 8}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 7, "height": 2}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 3, "height": 7}
+{"type": "triangle", "base": 6, "height": 9}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 5, "height": 9}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "rectangle", "width": 10, "height": 1}
+{"type": "rectangle", "width": 2, "height": 3}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": 8, "height": 3}
+{"type": "rectangle", "width": 9, "height": 5}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 1, "height": 6}
+{"type": "rectangle", "width": 1, "height": 1}
+{"type": "triangle", "base": 2, "height": 5}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "triangle", "base": 10, "height": 8}
+{"type": "rectangle", "width": 6, "height": 8}
+{"type": "triangle", "base": 10, "height": 9}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 1, "height": 8}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 9, "height": 7}
+{"type": "rectangle", "width": 1, "height": 9}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 1, "height": 10}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 10, "height": 9}
+{"type": "circle", "radius": 5}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 5, "height": 3}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 9, "height": 1}
+{"type": "triangle", "base": 10, "height": 5}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 10, "height": 1}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "rectangle", "width": 10, "height": 2}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 3, "height": 10}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 1, "height": 7}
+{"type": "circle", "radius": 1}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 3, "height": 2}
+{"type": "triangle", "base": 4, "height": 2}
+{"type": "rectangle", "width": 10, "height": 5}
+{"type": "triangle", "base": 3, "height": 3}
+{"type": "triangle", "base": 6, "height": 8}
+{"type": "triangle", "base": 2, "height": 3}
+{"type": "circle", "radius": 6}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 1, "height": 6}
+{"type": "rectangle", "width": 9, "height": 1}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 8}
+{"type": "triangle", "base": 5, "height": 10}
+{"type": "triangle", "base": 6, "height": 9}
+{"type": "rectangle", "width": 4, "height": 2}
+{"type": "circle", "radius": 4}
+{"type": "triangle", "base": 9, "height": 10}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": 6, "height": 7}
+{"type": "triangle", "base": 2, "height": 2}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "rectangle", "width": 1, "height": 10}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 3, "height": 9}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 10, "height": 9}
+{"type": "triangle", "base": 7, "height": 1}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 7, "height": 2}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": 7, "height": 9}
+{"type": "rectangle", "width": 9, "height": 1}
+{"type": "triangle", "base": 2, "height": 1}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 1, "height": 3}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 5, "height": 10}
+{"type": "rectangle", "width": 8, "height": 6}
+{"type": "triangle", "base": 7, "height": 8}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 1}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 3}
+{"type": "triangle", "base": 3, "height": 5}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "rectangle", "width": 5, "height": 4}
+{"type": "triangle", "base": 3, "height": 8}
+{"type": "rectangle", "width": 6, "height": 6}
+{"type": "triangle", "base": 2, "height": 3}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 4}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "rectangle", "width": 10, "height": 6}
+{"type": "triangle", "base": 8, "height": 4}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 3, "height": 9}
+{"type": "rectangle", "width": 9, "height": 9}
+{"type": "rectangle", "width": 2, "height": 9}
+{"type": "triangle", "base": 9, "height": 8}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": 10}
+{"type": "triangle", "base": 1, "height": 2}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 2, "height": 10}
+{"type": "rectangle", "width": 9, "height": 6}
+{"type": "triangle", "base": 4, "height": 5}
+{"type": "rectangle", "width": 3, "height": 6}
+{"type": "rectangle", "width": 6, "height": 2}
+{"type": "rectangle", "width": 2, "height": 7}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 7}
+{"type": "triangle", "base": 8, "height": 7}
+{"type": "triangle", "base": 6, "height": 3}
+{"type": "rectangle", "width": 1, "height": 6}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 8, "height": 6}
+{"type": "rectangle", "width": 8, "height": 9}
+{"type": "triangle", "base": 8, "height": 8}
+{"type": "triangle", "base": 8, "height": 3}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 10, "height": 7}
+{"type": "rectangle", "width": 9, "height": 5}
+{"type": "rectangle", "width": 4, "height": 1}
+{"type": "rectangle", "width": 8, "height": 2}
+{"type": "circle", "radius": 1}
+{"type": "rectangle", "width": 6, "height": 5}
+{"type": "triangle", "base": 7, "height": 10}
+{"type": "triangle", "base": 4, "height": 5}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "triangle", "base": 2, "height": 3}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 6}
+{"type": "triangle", "base": 9, "height": 1}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 3, "height": 2}
+{"type": "rectangle", "width": 2, "height": 6}
+{"type": "rectangle", "width": 8, "height": 3}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 5, "height": 6}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 2, "height": 8}
+{"type": "circle", "radius": 1}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 2}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 7}
+{"type": "triangle", "base": 10, "height": 7}
+{"type": "triangle", "base": 6, "height": 1}
+{"type": "triangle", "base": 10, "height": 2}
+{"type": "triangle", "base": 6, "height": 5}
+{"type": "triangle", "base": -1, "height": "b"}
+{"type": "rectangle", "width": "a", "height": -1}
+{"type": "rectangle", "width": 2, "height": 1}
+{"type": "triangle", "base": 6, "height": 6}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 3}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 8, "height": 9}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 5, "height": 6}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "circle", "radius": 10}
+{"type": "circle", "radius": 2}
+{"type": "triangle", "base": 3, "height": 5}
+{"type": "rectangle", "width": 7, "height": 9}
+{"type": "circle", "radius": 5}
+{"type": "rectangle", "width": 4, "height": 2}
+{"type": "rectangle", "width": 10, "height": 5}
+{"type": "triangle", "base": 2, "height": 8}
+{"type": "rectangle", "width": 4, "height": 2}
+{"type": "triangle", "base": 4, "height": 9}
+{"type": "rectangle", "width": 5, "height": 9}
+{"type": "rectangle", "width": 8, "height": 9}
+{"type": "circle", "radius": 6}
+{"type": "rectangle", "width": 3, "height": 4}
+{"type": "triangle", "base": 9, "height": 1}
+{"type": "triangle", "base": 6, "height": 6}
+{"type": "triangle", "base": 7, "height": 7}
+{"type": "rectangle", "width": 6, "height": 1}
+{"type": "rectangle", "width": 7, "height": 7}
+{"type": "rectangle", "width": 5, "height": 3}
+{"type": "rectangle", "width": 1, "height": 3}
+{"type": "rectangle", "width": 4, "height": 9}
+{"type": "triangle", "base": 5, "height": 2}
+{"type": "circle", "radius": 9}
+{"type": "triangle", "base": 4, "height": 1}
+{"type": "circle", "radius": 9}
+{"type": "rectangle", "width": 9, "height": 10}
+{"type": "circle", "radius": 7}
+{"type": "circle", "radius": "c"}
+{"type": "rectangle", "width": 5, "height": 2}
+{"type": "triangle", "base": 4, "height": 7}
+{"type": "triangle", "base": 7, "height": 8}
+{"type": "triangle", "base": 3, "height": 2}
+{"type": "circle", "radius": 1}
+{"type": "circle", "radius": 9}
+{"type": "circle", "radius": 1}
+{"type": "triangle", "base": 9, "height": 4}
+{"type": "triangle", "base": 4, "height": 5}
+{"type": "rectangle", "width": 10, "height": 3}
+{"type": "triangle", "base": 4, "height": 6}
+{"type": "triangle", "base": 7, "height": 7}
+{"type": "rectangle", "width": 8, "height": 5}
+{"type": "rectangle", "width": 5, "height": 3}
+{"type": "circle", "radius": 8}
+{"type": "circle", "radius": 7}
+{"type": "rectangle", "width": 8, "height": 6}
+{"type": "circle", "radius": 10}
+{"type": "rectangle", "width": 6, "height": 8}
+{"type": "circle", "radius": 8}
+{"type": "rectangle", "width": 3, "height": 7}
+{"type": "rectangle", "width": 3, "height": 2}
+{"type": "rectangle", "width": 7, "height": 6}
+{"type": "triangle", "base": 10, "height": 1}
+{"type": "rectangle", "width": 8, "height": 2}
+{"type": "circle", "radius": 3}

@@ -68,22 +68,3 @@ def validate_shape_json(shape_info):
         return False
 
 
-# # function to log the validation errors into a text file in this directory:
-# def log_validation_errors(shape_info):
-#     shape_type = shape_info.get('type')
-#     schema = SHAPE_SCHEMAS.get(shape_type)
-#
-#     if schema:
-#         validator = jsonschema.Draft7Validator(schema)
-#         errors = sorted(validator.iter_errors(shape_info), key=lambda e: e.path)
-#         if errors:
-#             with open('validation_errors.txt', 'a') as f:
-#                 for error in errors:
-#                     f.write(f'Validation error for shape: {error.message}\n')
-#             return False
-#         return True
-#     else:
-#         print(f'Unsupported shape type: "{shape_type}"')
-#         return False
-
-
