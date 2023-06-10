@@ -9,7 +9,7 @@ It is primarily concerned with data interpretation.
 - Test this functionality with hard-coded JSON data.
 
 ```bash
-(venv) (base) admin@REXY Plexure % python -m src.v3.area_cal_val    
+python -m src.v3.area_cal_val    
 ```
 
 ![](../../Pictures/Pasted%20image%2020230610171628.png)
