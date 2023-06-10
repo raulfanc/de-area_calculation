@@ -1,5 +1,5 @@
 import unittest
-from src.v2.shape_management import ShapeFactory, Rectangle, Circle, Triangle
+from src.v3.shape_management import ShapeFactory, Rectangle, Circle, Triangle
 
 
 class TestShapes(unittest.TestCase):
