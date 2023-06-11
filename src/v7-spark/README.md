@@ -4,4 +4,6 @@
 - install spark [spark install](spark_install.md)
 
 1. create a data generator to generate random jsonl data, including invalid data
-2. modify the extract function in the prefect pipeline to extract data from jsonl file
+2. run everything in cloud vm
+3. using pyspark df
+4. upgrade pyspark to work with prefect

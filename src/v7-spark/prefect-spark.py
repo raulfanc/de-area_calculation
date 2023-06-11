@@ -1,65 +1,68 @@
-import json
-from prefect import task, flow
 from datetime import timedelta
+import math
+
+from pyspark.sql import SparkSession, functions as F
+from pyspark.sql import types as T
+
+from prefect import task, flow
 from prefect.tasks import task_input_hash
 
-# shape_management.py and json_val.py should be in the same directory
-from .shape_management import ShapeFactory
-from .json_val import validate_shape_json
 
-
-@task(retries=3, log_stdout=True, cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
+@task(retries=3, cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1)
 def extract():
-    """Extract the different json from <sourcedata_url>"""
+    # Start Spark session
+    spark = SparkSession.builder \
+        .master("local[*]") \
+        .appName('plexure') \
+        .getOrCreate()
 
+    # Define schema
+    schema = T.StructType([
+        T.StructField("type", T.StringType(), True),
+        T.StructField("width", T.DoubleType(), True),
+        T.StructField("height", T.DoubleType(), True),
+        T.StructField("base", T.DoubleType(), True),
+        T.StructField("radius", T.DoubleType(), True)
+    ])
 
-    json_shapes_data = [
-        '{"type": "rectangle", "width": 5, "height": 10}',
-        '{"type": "triangle", "base": 2, "height": 3}',
-        '{"type": "circle", "radius": 4}',
-        '{"type": "rectangle", "width": 5, "height": 5}',
-        # ------------original data above this line----------
+    # Read JSON lines file into a DataFrame
+    df = spark.read.json('dummy_data.jsonl', schema=schema, multiLine=False)
 
-        '{"type": "rectangle", "width": "1", "height": -5, "base": 5}',  # validation check
-        '{"type": "rectangle", "width": , "height": -5}',
-    ]
-    return json_shapes_data
-
-
-@task(log_prints=True)
-def validate(json_shapes):
-    valid_shapes = []
-    for shape_info in json_shapes:
-        try:
-            shape_dict = json.loads(shape_info)
-        except json.JSONDecodeError:
-            print(f"Invalid JSON: {shape_info}")
-            continue
-
-        # Only add valid shapes to the list
-        if validate_shape_json(shape_dict):
-            valid_shapes.append(shape_dict)
-
-    return valid_shapes
+    return df
 
 
 @task
-def calculate_area(valid_shapes):
-    total_area = 0
-    for shape_dict in valid_shapes:
-        shape_object = ShapeFactory.create_shape(shape_dict)
-        total_area += shape_object.area()
+def validate(df):
+    # Filter the data using Spark SQL
+    df = df.filter(
+        (F.col('type') == 'rectangle' & F.col('width').isNotNull() & F.col('height').isNotNull()) |
+        (F.col('type') == 'triangle' & F.col('base').isNotNull() & F.col('height').isNotNull()) |
+        (F.col('type') == 'circle' & F.col('radius').isNotNull())
+    )
+    return df
+
+
+@task
+def calculate_area(df):
+    # Add a new column "area" for each shape
+    df = df.withColumn('area',
+                       F.when(F.col('type') == 'rectangle', F.col('width') * F.col('height')) \
+                       .when(F.col('type') == 'triangle', 0.5 * F.col('base') * F.col('height')) \
+                       .when(F.col('type') == 'circle', math.pi * F.pow(F.col('radius'), 2))
+                       )
+
+    # Calculate the total area
+    total_area = df.select(F.sum('area')).first()[0]
 
     return total_area
 
 
-# Define Prefect Flow
 @flow()
 def flowrun():
-    json_shapes = extract()
-    valid_shapes = validate(json_shapes)
-    total_area = calculate_area(valid_shapes)
-    print(f"{total_area:.2f}")
+    df = extract()
+    df_validated = validate(df)
+    total_area = calculate_area(df_validated)
+    print(total_area)
 
 
 # Run the flow
