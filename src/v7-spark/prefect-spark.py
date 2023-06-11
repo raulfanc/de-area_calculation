@@ -1,13 +1,18 @@
 import json
 from prefect import task, flow
+from datetime import timedelta
+from prefect.tasks import task_input_hash
 
 # shape_management.py and json_val.py should be in the same directory
 from .shape_management import ShapeFactory
 from .json_val import validate_shape_json
 
 
-@task
+@task(retries=3, log_stdout=True, cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
 def extract():
+    """Extract the different json from <sourcedata_url>"""
+
+
     json_shapes_data = [
         '{"type": "rectangle", "width": 5, "height": 10}',
         '{"type": "triangle", "base": 2, "height": 3}',
