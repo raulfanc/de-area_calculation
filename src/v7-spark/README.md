@@ -1,5 +1,5 @@
 # Spark
-**Scaling data extraction with Spark**: can significantly speed up your data extraction
+**Scaling data extraction with Spark**: can significantly speed up your data extraction, as well as df manipulation.
 
 - install spark [spark install](spark_install.md)
 

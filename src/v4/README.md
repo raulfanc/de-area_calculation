@@ -1,8 +1,10 @@
 # validation for jsonline
 change name of the `shape_management.py` into `json_val.py` since this is a validation module
-- check shape: 3 shapes but it is future 
-- check key: no extra added key, and only supported key, no n/a
-- check value: no extra value, no wrong data type (float and int only), no nagative value, no n/a
+- check `types`: 3 shapes only, can add more shapes
+- check `keys`: no extra added key, and only supported key, no n/a
+- check `values`: no extra value, no wrong data type (float and int only), no nagative value, no n/a
+
+error handling not to interrupt because I want to capture all the data
 
 ```bash
 python -m src.v4.area_cal_val

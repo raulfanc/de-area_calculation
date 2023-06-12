@@ -1,3 +1,10 @@
+"""
+orchestrating workflow with Prefect
+- automatic retries, failure notifications, data persistence, and a lot more
+- thinking of real-world apps, using hard-coded data for testing purpose
+- moved hard-coded data to a task at the extract stage, and then passed the data through the pipeline
+"""
+
 import json
 from prefect import task, flow
 
@@ -38,22 +45,6 @@ def validate(json_shapes):
     return valid_shapes
 
 
-# @task()
-# def log_validation_errors(json_shapes):
-#     for shape_info in json_shapes:
-#         try:
-#             shape_dict = json.loads(shape_info)
-#         except json.JSONDecodeError:
-#             print(f"Invalid JSON: {shape_info}")
-#             continue
-#
-#         # Only add valid shapes to the list
-#         if not validate_shape_json(shape_dict):
-#             log_validation_errors(shape_dict)
-#
-#     return True
-
-
 @task
 def calculate_area(valid_shapes):
     total_area = 0
@@ -69,10 +60,8 @@ def calculate_area(valid_shapes):
 def flowrun():
     json_shapes = extract()
     valid_shapes = validate(json_shapes)
-    # log_validation_errors(json_shapes)
     total_area = calculate_area(valid_shapes)
-    # print total_area in 2 decimal places
-    print(f"{total_area:.2f}")
+    print(f"{total_area:.2f}")                              # print total_area in 2 decimal places
 
 
 # Run the flow

@@ -1,3 +1,8 @@
+"""
+using `Spark` to handle large data, and `Prefect` to handle the workflow
+"""
+
+
 from datetime import timedelta
 import math
 
@@ -33,12 +38,15 @@ def extract():
 
 @task
 def validate(df):
-    # Filter the data using Spark SQL
+    # Filter the data using Spark SQL, `double` in schema doesn't convert negative value to null
     df = df.filter(
-        (F.col('type') == 'rectangle' & F.col('width').isNotNull() & F.col('height').isNotNull()) |
-        (F.col('type') == 'triangle' & F.col('base').isNotNull() & F.col('height').isNotNull()) |
-        (F.col('type') == 'circle' & F.col('radius').isNotNull())
+        (F.col('type') == 'rectangle' & F.col('width').isNotNull() & F.col('height').isNotNull() & F.col(
+            'width') > 0 & F.col('height') > 0) |
+        (F.col('type') == 'triangle' & F.col('base').isNotNull() & F.col('height').isNotNull() & F.col(
+            'base') > 0 & F.col('height') > 0) |
+        (F.col('type') == 'circle' & F.col('radius').isNotNull() & F.col('radius') > 0)
     )
+
     return df
 
 

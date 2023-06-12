@@ -153,7 +153,7 @@ ssh -i ~/.ssh/gcp -L 4200:localhost:4200 rex@de-learning
 
 - switch to the env and start `prefect server`
 ```bash
-prefect orion start```
+prefect orion start
 ```
 
 ---

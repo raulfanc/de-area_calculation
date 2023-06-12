@@ -2,3 +2,4 @@
 .idea/
 .obsidian/
 /.obsidian/
+/src/prod/.env

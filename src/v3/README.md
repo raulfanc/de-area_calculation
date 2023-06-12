@@ -1,11 +1,9 @@
-# Shape Validation
-The core purpose of this function is to validate the structure and contents of a JSON object representing a shape. 
-It is primarily concerned with data interpretation.
+# start working on validations.
+since we have checked the shape, we here to check the keys for each shape.
 
 
 - Implement functionality to read, parse and validate JSON data. 
-- Validation could include checking for necessary keys for the right data types. 
-- Create a function that accepts a JSON object, validates it, and then applies the correct area calculation based on the shape type. 
+- Validation could include checking for necessary `keys` for the right data types. 
 - Test this functionality with hard-coded JSON data.
 
 ```bash
