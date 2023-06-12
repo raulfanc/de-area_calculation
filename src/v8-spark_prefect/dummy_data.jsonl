@@ -1,0 +1,1000 @@
+{"type": "triangle", "base": 2, "height": 8, "extra": 1}
+{"type": "rectngle", "width": 9, "height": 9}
+{"type": "circle", "radius": 10, "color": "green"}
+{"type": "rectngle", "width": 2, "height": 6}
+{"type": "polygon", "sides": 6, "length": 2}
+{"type": "polygon", "sides": 10, "length": 2}
+{"type": "rectngle", "width": 5, "height": 6}
+{"type": "triangle", "base": 1, "height": 2, "extra": 5}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 1, "color": "green"}
+{"type": "triangle", "base": 4, "height": 10, "extra": 10}
+{"type": "polygon", "sides": 9, "length": 10}
+{"type": "rectngle", "width": 8, "height": 8}
+{"type": "circle", "radius": 1, "color": "red"}
+{"type": "circle", "radius": 4, "color": "blue"}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 3}
+{"type": "triangle", "base": 2, "height": 6, "extra": 5}
+{"type": "polygon", "sides": 10, "length": 7}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "rectngle", "width": 2, "height": 1}
+{"type": "rectngle", "width": 5, "height": 2}
+{"type": "triangle", "base": 5, "height": 4, "extra": 9}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 1}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 4}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 3}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 2}
+{"type": "polygon", "sides": 8, "length": 10}
+{"type": "circle", "radius": 8, "color": "green"}
+{"type": "rectngle", "width": 9, "height": 1}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 4}
+{"type": "circle", "radius": 9, "color": "green"}
+{"type": "triangle", "base": 2, "height": 3, "extra": 2}
+{"type": "triangle", "base": 9, "height": 8, "extra": 1}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 3}
+{"type": "triangle", "base": 4, "height": 6, "extra": 3}
+{"type": "circle", "radius": 9, "color": "blue"}
+{"type": "polygon", "sides": 10, "length": 2}
+{"type": "circle", "radius": 1, "color": "red"}
+{"type": "rectngle", "width": 4, "height": 7}
+{"type": "triangle", "base": 6, "height": 9, "extra": 5}
+{"type": "rectngle", "width": 10, "height": 6}
+{"type": "rectngle", "width": 3, "height": 10}
+{"type": "triangle", "base": 7, "height": 1, "extra": 4}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "polygon", "sides": 10, "length": 6}
+{"type": "polygon", "sides": 7, "length": 6}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 6}
+{"type": "circle", "radius": 8, "color": "red"}
+{"type": "circle", "radius": 7, "color": "red"}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 9}
+{"type": "triangle", "base": 6, "height": 7, "extra": 1}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 2}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 2}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 6}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "rectngle", "width": 1, "height": 6}
+{"type": "polygon", "sides": 9, "length": 9}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 8}
+{"type": "triangle", "base": 1, "height": 8, "extra": 5}
+{"type": "triangle", "base": 6, "height": 3, "extra": 1}
+{"type": "triangle", "base": 6, "height": 9, "extra": 1}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 3}
+{"type": "rectngle", "width": 2, "height": 3}
+{"type": "polygon", "sides": 9, "length": 3}
+{"type": "circle", "radius": 1, "color": "green"}
+{"type": "triangle", "base": 6, "height": 6, "extra": 9}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "circle", "radius": 7, "color": "red"}
+{"type": "polygon", "sides": 7, "length": 8}
+{"type": "rectngle", "width": 8, "height": 9}
+{"type": "triangle", "base": 1, "height": 5, "extra": 10}
+{"type": "rectngle", "width": 7, "height": 7}
+{"type": "triangle", "base": 10, "height": 7, "extra": 7}
+{"type": "polygon", "sides": 7, "length": 5}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 3}
+{"type": "polygon", "sides": 6, "length": 3}
+{"type": "triangle", "base": 3, "height": 1, "extra": 3}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "polygon", "sides": 5, "length": 10}
+{"type": "circle", "radius": 8, "color": "red"}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "triangle", "base": 7, "height": 6, "extra": 1}
+{"type": "triangle", "base": 10, "height": 5, "extra": 7}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 4}
+{"type": "triangle", "base": 4, "height": 10, "extra": 9}
+{"type": "rectngle", "width": 9, "height": 4}
+{"type": "circle", "radius": "c"}
+{"type": "polygon", "sides": 10, "length": 7}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "triangle", "base": 8, "height": 1, "extra": 4}
+{"type": "circle", "radius": 10, "color": "green"}
+{"type": "polygon", "sides": 4, "length": 3}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 4}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 2}
+{"type": "polygon", "sides": 6, "length": 9}
+{"type": "polygon", "sides": 9, "length": 9}
+{"type": "triangle", "base": 10, "height": 2, "extra": 2}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 6}
+{"type": "polygon", "sides": 3, "length": 1}
+{"type": "rectngle", "width": 7, "height": 2}
+{"type": "circle", "radius": 2, "color": "green"}
+{"type": "rectngle", "width": 7, "height": 7}
+{"type": "rectngle", "width": 4, "height": 9}
+{"type": "triangle", "base": 1, "height": 9, "extra": 6}
+{"type": "rectngle", "width": 8, "height": 4}
+{"type": "polygon", "sides": 5, "length": 8}
+{"type": "rectngle", "width": 9, "height": 10}
+{"type": "polygon", "sides": 8, "length": 8}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "rectngle", "width": 3, "height": 1}
+{"type": "rectngle", "width": 4, "height": 4}
+{"type": "triangle", "base": 3, "height": 7, "extra": 3}
+{"type": "triangle", "base": 6, "height": 7, "extra": 4}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "circle", "radius": 2, "color": "blue"}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 2}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 6}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "polygon", "sides": 6, "length": 3}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "triangle", "base": 3, "height": 4, "extra": 1}
+{"type": "polygon", "sides": 9, "length": 6}
+{"type": "triangle", "base": 7, "height": 2, "extra": 8}
+{"type": "circle", "radius": 6, "color": "red"}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 5}
+{"type": "polygon", "sides": 10, "length": 1}
+{"type": "rectngle", "width": 8, "height": 7}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 5}
+{"type": "rectngle", "width": 9, "height": 1}
+{"type": "rectngle", "width": 6, "height": 6}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 1}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 4, "height": 8, "extra": 1}
+{"type": "polygon", "sides": 9, "length": 3}
+{"type": "triangle", "base": 7, "height": 5, "extra": 4}
+{"type": "triangle", "base": 2, "height": 2, "extra": 8}
+{"type": "rectngle", "width": 4, "height": 10}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 10, "height": 7, "extra": 5}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "triangle", "base": 4, "height": 2, "extra": 4}
+{"type": "triangle", "base": 2, "height": 8, "extra": 2}
+{"type": "triangle", "base": 2, "height": 10, "extra": 3}
+{"type": "rectngle", "width": 5, "height": 4}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "triangle", "base": 4, "height": 1, "extra": 5}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 10}
+{"type": "circle", "radius": 4, "color": "blue"}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 6}
+{"type": "polygon", "sides": 3, "length": 6}
+{"type": "polygon", "sides": 9, "length": 6}
+{"type": "polygon", "sides": 7, "length": 5}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 6}
+{"type": "polygon", "sides": 10, "length": 10}
+{"type": "rectngle", "width": 4, "height": 6}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "polygon", "sides": 9, "length": 1}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 5}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 10}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 8}
+{"type": "rectngle", "width": 2, "height": 5}
+{"type": "rectngle", "width": 3, "height": 3}
+{"type": "triangle", "base": 6, "height": 9, "extra": 1}
+{"type": "circle", "radius": "c"}
+{"type": "circle", "radius": 3, "color": "green"}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 6}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 8}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 5}
+{"type": "rectngle", "width": 9, "height": 8}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 5}
+{"type": "triangle", "base": 10, "height": 2, "extra": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 3}
+{"type": "rectngle", "width": 1, "height": 2}
+{"type": "triangle", "base": 2, "height": 5, "extra": 2}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 10}
+{"type": "triangle", "base": 7, "height": 7, "extra": 8}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 4}
+{"type": "polygon", "sides": 4, "length": 10}
+{"type": "triangle", "base": 1, "height": 10, "extra": 10}
+{"type": "polygon", "sides": 7, "length": 1}
+{"type": "polygon", "sides": 8, "length": 9}
+{"type": "polygon", "sides": 5, "length": 3}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "rectngle", "width": 9, "height": 9}
+{"type": "triangle", "base": 5, "height": 9, "extra": 3}
+{"type": "polygon", "sides": 4, "length": 7}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "triangle", "base": 3, "height": 5, "extra": 6}
+{"type": "polygon", "sides": 7, "length": 2}
+{"type": "polygon", "sides": 9, "length": 6}
+{"type": "polygon", "sides": 9, "length": 4}
+{"type": "rectngle", "width": 5, "height": 6}
+{"type": "triangle", "base": 5, "height": 10, "extra": 2}
+{"type": "polygon", "sides": 6, "length": 3}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 4}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 3}
+{"type": "circle", "radius": 4, "color": "blue"}
+{"type": "circle", "radius": 7, "color": "red"}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 9}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "rectngle", "width": 6, "height": 8}
+{"type": "triangle", "base": 9, "height": 3, "extra": 8}
+{"type": "rectngle", "width": 1, "height": 2}
+{"type": "triangle", "base": 4, "height": 4, "extra": 1}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 4}
+{"type": "rectngle", "width": 7, "height": 3}
+{"type": "polygon", "sides": 4, "length": 10}
+{"type": "rectngle", "width": 10, "height": 10}
+{"type": "polygon", "sides": 6, "length": 2}
+{"type": "triangle", "base": 8, "height": 5, "extra": 10}
+{"type": "triangle", "base": 8, "height": 9, "extra": 2}
+{"type": "polygon", "sides": 10, "length": 8}
+{"type": "circle", "radius": 8, "color": "red"}
+{"type": "circle", "radius": 5, "color": "blue"}
+{"type": "circle", "radius": 1, "color": "green"}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "polygon", "sides": 5, "length": 7}
+{"type": "triangle", "base": 6, "height": 3, "extra": 6}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 4, "height": 6, "extra": 3}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 10}
+{"type": "triangle", "base": 6, "height": 4, "extra": 9}
+{"type": "triangle", "base": 6, "height": 7, "extra": 2}
+{"type": "polygon", "sides": 5, "length": 7}
+{"type": "rectngle", "width": 6, "height": 1}
+{"type": "polygon", "sides": 5, "length": 10}
+{"type": "triangle", "base": 4, "height": 1, "extra": 2}
+{"type": "rectngle", "width": 5, "height": 8}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 9}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 5}
+{"type": "polygon", "sides": 7, "length": 7}
+{"type": "rectngle", "width": 1, "height": 5}
+{"type": "triangle", "base": 8, "height": 2, "extra": 8}
+{"type": "circle", "radius": 5, "color": "green"}
+{"type": "rectngle", "width": 1, "height": 10}
+{"type": "triangle", "base": 7, "height": 1, "extra": 6}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 2}
+{"type": "polygon", "sides": 6, "length": 4}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 7}
+{"type": "polygon", "sides": 7, "length": 8}
+{"type": "circle", "radius": 9, "color": "green"}
+{"type": "rectngle", "width": 8, "height": 6}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 2}
+{"type": "rectngle", "width": 3, "height": 7}
+{"type": "triangle", "base": 8, "height": 9, "extra": 4}
+{"type": "triangle", "base": 3, "height": 10, "extra": 10}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "triangle", "base": 6, "height": 10, "extra": 10}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 3}
+{"type": "circle", "radius": "c"}
+{"type": "rectngle", "width": 7, "height": 10}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 4}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 9}
+{"type": "triangle", "base": 8, "height": 1, "extra": 9}
+{"type": "circle", "radius": 9, "color": "green"}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 2}
+{"type": "rectngle", "width": 2, "height": 9}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 9}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 7}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 2}
+{"type": "polygon", "sides": 6, "length": 5}
+{"type": "polygon", "sides": 5, "length": 9}
+{"type": "rectngle", "width": 9, "height": 7}
+{"type": "circle", "radius": 1, "color": "green"}
+{"type": "polygon", "sides": 4, "length": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "triangle", "base": 4, "height": 9, "extra": 8}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "rectngle", "width": 6, "height": 8}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "rectngle", "width": 8, "height": 2}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 2}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "rectngle", "width": 9, "height": 2}
+{"type": "circle", "radius": "c"}
+{"type": "rectngle", "width": 5, "height": 4}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 1}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 5}
+{"type": "triangle", "base": 2, "height": 1, "extra": 2}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"type": "polygon", "sides": 10, "length": 10}
+{"type": "circle", "radius": 7, "color": "blue"}
+{"type": "polygon", "sides": 8, "length": 3}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "polygon", "sides": 3, "length": 3}
+{"type": "circle", "radius": 9, "color": "green"}
+{"type": "triangle", "base": 10, "height": 7, "extra": 6}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 5}
+{"type": "triangle", "base": 8, "height": 2, "extra": 4}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 10}
+{"type": "triangle", "base": 6, "height": 7, "extra": 2}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 6}
+{"type": "polygon", "sides": 5, "length": 4}
+{"type": "circle", "radius": "c"}
+{"type": "rectngle", "width": 4, "height": 3}
+{"type": "triangle", "base": 6, "height": 2, "extra": 10}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "triangle", "base": 2, "height": 7, "extra": 10}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "polygon", "sides": 8, "length": 8}
+{"type": "rectngle", "width": 7, "height": 9}
+{"type": "rectngle", "width": 4, "height": 3}
+{"type": "polygon", "sides": 4, "length": 10}
+{"type": "circle", "radius": 8, "color": "green"}
+{"type": "triangle", "base": 5, "height": 2, "extra": 7}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 7}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 5}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 6}
+{"type": "circle", "radius": "c"}
+{"type": "rectngle", "width": 8, "height": 5}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 4}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 6}
+{"type": "triangle", "base": 8, "height": 3, "extra": 5}
+{"type": "polygon", "sides": 10, "length": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "circle", "radius": 8, "color": "green"}
+{"type": "polygon", "sides": 9, "length": 10}
+{"type": "circle", "radius": 9, "color": "red"}
+{"type": "rectngle", "width": 7, "height": 9}
+{"type": "triangle", "base": 4, "height": 3, "extra": 8}
+{"type": "circle", "radius": 9, "color": "blue"}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 3}
+{"type": "rectngle", "width": 8, "height": 10}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "polygon", "sides": 10, "length": 3}
+{"type": "triangle", "base": 1, "height": 4, "extra": 8}
+{"type": "rectngle", "width": 1, "height": 7}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 6}
+{"type": "rectngle", "width": 8, "height": 2}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "rectngle", "width": 6, "height": 5}
+{"type": "circle", "radius": 1, "color": "green"}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 10}
+{"type": "polygon", "sides": 5, "length": 1}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 6}
+{"type": "polygon", "sides": 3, "length": 3}
+{"type": "polygon", "sides": 6, "length": 3}
+{"type": "rectngle", "width": 9, "height": 10}
+{"type": "rectngle", "width": 10, "height": 8}
+{"type": "polygon", "sides": 8, "length": 3}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 4}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 8}
+{"type": "triangle", "base": 6, "height": 6, "extra": 7}
+{"type": "polygon", "sides": 6, "length": 1}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "rectngle", "width": 7, "height": 2}
+{"type": "rectngle", "width": 10, "height": 5}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 4}
+{"type": "rectngle", "width": 1, "height": 1}
+{"type": "circle", "radius": 3, "color": "green"}
+{"type": "circle", "radius": 9, "color": "red"}
+{"type": "polygon", "sides": 10, "length": 6}
+{"type": "polygon", "sides": 4, "length": 2}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 10}
+{"type": "rectngle", "width": 4, "height": 7}
+{"type": "rectngle", "width": 5, "height": 4}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "circle", "radius": 7, "color": "green"}
+{"type": "triangle", "base": 6, "height": 10, "extra": 6}
+{"type": "rectngle", "width": 1, "height": 2}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 3}
+{"type": "rectngle", "width": 10, "height": 10}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 4}
+{"type": "rectngle", "width": 5, "height": 2}
+{"type": "polygon", "sides": 4, "length": 1}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 9}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "rectngle", "width": 2, "height": 4}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"type": "polygon", "sides": 4, "length": 9}
+{"type": "rectngle", "width": 9, "height": 2}
+{"type": "rectngle", "width": 1, "height": 3}
+{"type": "triangle", "base": 9, "height": 9, "extra": 6}
+{"type": "polygon", "sides": 6, "length": 7}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 7}
+{"type": "rectngle", "width": 5, "height": 4}
+{"type": "circle", "radius": 2, "color": "blue"}
+{"type": "rectngle", "width": 5, "height": 3}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 9, "height": 6, "extra": 3}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "triangle", "base": 8, "height": 4, "extra": 9}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 2}
+{"type": "triangle", "base": 9, "height": 2, "extra": 10}
+{"type": "triangle", "base": 3, "height": 1, "extra": 7}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "circle", "radius": 2, "color": "blue"}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "rectngle", "width": 5, "height": 2}
+{"type": "rectngle", "width": 7, "height": 5}
+{"type": "polygon", "sides": 4, "length": 6}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "polygon", "sides": 9, "length": 5}
+{"type": "polygon", "sides": 4, "length": 9}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 8}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "circle", "radius": 8, "color": "green"}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 5}
+{"type": "polygon", "sides": 5, "length": 8}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 9}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 2}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "rectngle", "width": 10, "height": 8}
+{"type": "polygon", "sides": 4, "length": 7}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"type": "circle", "radius": 9, "color": "green"}
+{"type": "polygon", "sides": 7, "length": 2}
+{"type": "polygon", "sides": 10, "length": 1}
+{"type": "triangle", "base": 2, "height": 10, "extra": 4}
+{"type": "circle", "radius": 7, "color": "blue"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "triangle", "base": 7, "height": 10, "extra": 8}
+{"type": "triangle", "base": 10, "height": 2, "extra": 3}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 2}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 10}
+{"type": "polygon", "sides": 5, "length": 7}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 1}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "polygon", "sides": 10, "length": 6}
+{"type": "polygon", "sides": 3, "length": 2}
+{"type": "rectngle", "width": 4, "height": 4}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 1}
+{"type": "triangle", "base": 4, "height": 4, "extra": 7}
+{"type": "polygon", "sides": 8, "length": 3}
+{"type": "rectngle", "width": 2, "height": 1}
+{"type": "triangle", "base": 7, "height": 9, "extra": 7}
+{"type": "rectngle", "width": 2, "height": 2}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 1}
+{"type": "circle", "radius": 10, "color": "red"}
+{"type": "rectngle", "width": 3, "height": 7}
+{"type": "polygon", "sides": 8, "length": 7}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 6}
+{"type": "rectngle", "width": 4, "height": 1}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 5}
+{"type": "circle", "radius": "c"}
+{"type": "polygon", "sides": 9, "length": 1}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "rectngle", "width": 1, "height": 1}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 4}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "rectngle", "width": 1, "height": 5}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 8}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "polygon", "sides": 6, "length": 10}
+{"type": "polygon", "sides": 3, "length": 7}
+{"type": "triangle", "base": 3, "height": 9, "extra": 4}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "triangle", "base": 3, "height": 4, "extra": 1}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 3}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 10}
+{"type": "rectngle", "width": 7, "height": 8}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 2}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 4}
+{"type": "triangle", "base": 9, "height": 8, "extra": 7}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "triangle", "base": 5, "height": 2, "extra": 3}
+{"type": "rectngle", "width": 9, "height": 1}
+{"type": "triangle", "base": 8, "height": 7, "extra": 8}
+{"type": "triangle", "base": 4, "height": 2, "extra": 9}
+{"type": "polygon", "sides": 9, "length": 6}
+{"type": "polygon", "sides": 5, "length": 4}
+{"type": "rectngle", "width": 7, "height": 3}
+{"type": "circle", "radius": 7, "color": "blue"}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 7, "height": 3, "extra": 8}
+{"type": "polygon", "sides": 6, "length": 8}
+{"type": "rectngle", "width": 5, "height": 7}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 9}
+{"type": "triangle", "base": 10, "height": 1, "extra": 2}
+{"type": "polygon", "sides": 3, "length": 3}
+{"type": "polygon", "sides": 8, "length": 8}
+{"type": "polygon", "sides": 9, "length": 2}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 2}
+{"type": "polygon", "sides": 8, "length": 3}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 10}
+{"type": "polygon", "sides": 4, "length": 3}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "rectngle", "width": 4, "height": 9}
+{"type": "polygon", "sides": 6, "length": 10}
+{"type": "rectngle", "width": 6, "height": 2}
+{"type": "polygon", "sides": 4, "length": 2}
+{"type": "circle", "radius": 10, "color": "red"}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 3}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 5}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 8}
+{"type": "triangle", "base": 4, "height": 7, "extra": 9}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 9}
+{"type": "rectngle", "width": 7, "height": 5}
+{"type": "rectngle", "width": 6, "height": 2}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "rectngle", "width": 6, "height": 8}
+{"type": "circle", "radius": 8, "color": "red"}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 9}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "triangle", "base": 6, "height": 1, "extra": 5}
+{"type": "triangle", "base": 10, "height": 9, "extra": 9}
+{"type": "circle", "radius": 7, "color": "green"}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "rectngle", "width": 8, "height": 7}
+{"type": "triangle", "base": 8, "height": 5, "extra": 8}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "triangle", "base": 3, "height": 8, "extra": 10}
+{"type": "triangle", "base": 1, "height": 8, "extra": 9}
+{"type": "polygon", "sides": 9, "length": 7}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "rectngle", "width": 1, "height": 10}
+{"type": "polygon", "sides": 4, "length": 4}
+{"type": "triangle", "base": 9, "height": 7, "extra": 2}
+{"type": "triangle", "base": 3, "height": 2, "extra": 2}
+{"type": "polygon", "sides": 10, "length": 10}
+{"type": "polygon", "sides": 6, "length": 1}
+{"type": "circle", "radius": 8, "color": "red"}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 9}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "rectngle", "width": 5, "height": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "polygon", "sides": 3, "length": 8}
+{"type": "polygon", "sides": 7, "length": 9}
+{"type": "circle", "radius": "c"}
+{"type": "rectngle", "width": 4, "height": 4}
+{"type": "rectngle", "width": 10, "height": 4}
+{"type": "triangle", "base": 6, "height": 6, "extra": 4}
+{"type": "polygon", "sides": 8, "length": 9}
+{"type": "rectngle", "width": 1, "height": 10}
+{"type": "polygon", "sides": 5, "length": 10}
+{"type": "polygon", "sides": 9, "length": 7}
+{"type": "triangle", "base": 10, "height": 7, "extra": 9}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 7}
+{"type": "rectngle", "width": 7, "height": 6}
+{"type": "polygon", "sides": 7, "length": 5}
+{"type": "circle", "radius": 10, "color": "green"}
+{"type": "rectngle", "width": 1, "height": 4}
+{"type": "circle", "radius": "c"}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 4}
+{"type": "circle", "radius": 5, "color": "blue"}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "polygon", "sides": 10, "length": 2}
+{"type": "rectngle", "width": 4, "height": 9}
+{"type": "triangle", "base": 4, "height": 9, "extra": 7}
+{"type": "triangle", "base": 4, "height": 9, "extra": 7}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 4}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"type": "polygon", "sides": 7, "length": 6}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 7}
+{"type": "polygon", "sides": 4, "length": 1}
+{"type": "polygon", "sides": 4, "length": 5}
+{"type": "rectngle", "width": 1, "height": 7}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 9}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "rectngle", "width": 5, "height": 5}
+{"type": "rectngle", "width": 4, "height": 10}
+{"type": "rectngle", "width": 7, "height": 3}
+{"type": "polygon", "sides": 3, "length": 8}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 2, "color": "red"}
+{"type": "rectngle", "width": 2, "height": 10}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 6}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 5}
+{"type": "circle", "radius": 3, "color": "green"}
+{"type": "triangle", "base": 2, "height": 9, "extra": 10}
+{"type": "triangle", "base": 7, "height": 7, "extra": 9}
+{"type": "polygon", "sides": 6, "length": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 4}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "circle", "radius": 5, "color": "blue"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 5}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 6}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 9}
+{"type": "triangle", "base": 3, "height": 10, "extra": 5}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 1}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 3, "height": 7, "extra": 3}
+{"type": "triangle", "base": 6, "height": 7, "extra": 7}
+{"type": "rectngle", "width": 3, "height": 8}
+{"type": "rectngle", "width": 9, "height": 1}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 10}
+{"type": "rectngle", "width": 4, "height": 7}
+{"type": "triangle", "base": 7, "height": 1, "extra": 9}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "rectngle", "width": 1, "height": 4}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 8}
+{"type": "circle", "radius": "c"}
+{"type": "polygon", "sides": 8, "length": 9}
+{"type": "triangle", "base": 10, "height": 4, "extra": 5}
+{"type": "triangle", "base": 4, "height": 9, "extra": 1}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 10}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "polygon", "sides": 9, "length": 10}
+{"type": "polygon", "sides": 7, "length": 3}
+{"type": "triangle", "base": 2, "height": 7, "extra": 9}
+{"type": "triangle", "base": 8, "height": 5, "extra": 5}
+{"type": "triangle", "base": 4, "height": 6, "extra": 1}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 3}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "rectngle", "width": 6, "height": 3}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 5}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 7}
+{"type": "rectngle", "width": 5, "height": 1}
+{"type": "polygon", "sides": 5, "length": 4}
+{"type": "triangle", "base": 4, "height": 2, "extra": 9}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 7}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 6}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 3}
+{"type": "circle", "radius": 7, "color": "green"}
+{"type": "polygon", "sides": 3, "length": 4}
+{"type": "circle", "radius": 10, "color": "green"}
+{"type": "circle", "radius": 9, "color": "green"}
+{"type": "triangle", "base": 4, "height": 3, "extra": 9}
+{"type": "polygon", "sides": 5, "length": 5}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 9}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "rectngle", "width": 9, "height": 4}
+{"type": "polygon", "sides": 9, "length": 9}
+{"type": "rectngle", "width": 1, "height": 2}
+{"type": "polygon", "sides": 3, "length": 10}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 2}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 5}
+{"type": "circle", "radius": 3, "color": "green"}
+{"type": "polygon", "sides": 8, "length": 6}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 1}
+{"type": "triangle", "base": 9, "height": 9, "extra": 2}
+{"type": "polygon", "sides": 3, "length": 9}
+{"type": "circle", "radius": 4, "color": "blue"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 6}
+{"type": "rectngle", "width": 2, "height": 1}
+{"type": "circle", "radius": 7, "color": "blue"}
+{"type": "circle", "radius": 9, "color": "red"}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 3, "color": "green"}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 6}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 3}
+{"type": "rectngle", "width": 9, "height": 3}
+{"type": "circle", "radius": 5, "color": "blue"}
+{"type": "rectngle", "width": 8, "height": 1}
+{"type": "rectngle", "width": 10, "height": 3}
+{"type": "circle", "radius": 7, "color": "red"}
+{"type": "circle", "radius": 9, "color": "green"}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 8}
+{"type": "polygon", "sides": 7, "length": 9}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 1, "height": 3, "extra": 10}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 6}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "polygon", "sides": 9, "length": 5}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 4}
+{"type": "triangle", "base": 3, "height": 2, "extra": 9}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 9}
+{"type": "triangle", "base": 5, "height": 3, "extra": 2}
+{"type": "polygon", "sides": 5, "length": 9}
+{"type": "triangle", "base": 1, "height": 9, "extra": 9}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "circle", "radius": 2, "color": "red"}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "triangle", "base": 10, "height": 5, "extra": 2}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 6}
+{"type": "triangle", "base": 7, "height": 1, "extra": 5}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 3}
+{"type": "triangle", "base": 9, "height": 9, "extra": 9}
+{"type": "triangle", "base": 4, "height": 2, "extra": 8}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "circle", "radius": 7, "color": "blue"}
+{"type": "rectngle", "width": 7, "height": 1}
+{"type": "triangle", "base": 2, "height": 1, "extra": 3}
+{"type": "polygon", "sides": 10, "length": 6}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 1}
+{"type": "triangle", "base": 6, "height": 3, "extra": 1}
+{"type": "polygon", "sides": 5, "length": 9}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"type": "triangle", "base": 9, "height": 9, "extra": 3}
+{"type": "circle", "radius": 9, "color": "blue"}
+{"type": "polygon", "sides": 5, "length": 3}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 9}
+{"type": "rectngle", "width": 1, "height": 6}
+{"type": "triangle", "base": 6, "height": 6, "extra": 1}
+{"type": "triangle", "base": 10, "height": 4, "extra": 10}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 4}
+{"type": "triangle", "base": 8, "height": 10, "extra": 5}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "triangle", "base": 5, "height": 10, "extra": 6}
+{"type": "circle", "radius": 9, "color": "blue"}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "polygon", "sides": 6, "length": 8}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 8, "height": 1, "extra": 7}
+{"type": "circle", "radius": "c"}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 6}
+{"type": "rectngle", "width": 10, "height": 7}
+{"type": "polygon", "sides": 8, "length": 5}
+{"type": "triangle", "base": 7, "height": 8, "extra": 5}
+{"type": "polygon", "sides": 9, "length": 8}
+{"type": "polygon", "sides": 4, "length": 2}
+{"type": "polygon", "sides": 7, "length": 1}
+{"type": "polygon", "sides": 10, "length": 5}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 5}
+{"type": "circle", "radius": 1, "color": "red"}
+{"type": "polygon", "sides": 9, "length": 10}
+{"type": "circle", "radius": 1, "color": "green"}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 10}
+{"type": "rectngle", "width": 8, "height": 9}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "triangle", "base": 10, "height": 4, "extra": 9}
+{"type": "rectngle", "width": 6, "height": 3}
+{"type": "polygon", "sides": 8, "length": 3}
+{"type": "rectngle", "width": 6, "height": 7}
+{"type": "triangle", "base": 1, "height": 1, "extra": 3}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 7}
+{"type": "rectngle", "width": 5, "height": 8}
+{"type": "triangle", "base": 6, "height": 2, "extra": 8}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "polygon", "sides": 10, "length": 9}
+{"type": "triangle", "base": 7, "height": 2, "extra": 1}
+{"type": "circle", "radius": 9, "color": "blue"}
+{"type": "circle", "radius": 9, "color": "red"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "circle", "radius": 7, "color": "blue"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "polygon", "sides": 6, "length": 9}
+{"type": "rectngle", "width": 1, "height": 9}
+{"type": "polygon", "sides": 5, "length": 10}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 2}
+{"type": "polygon", "sides": 5, "length": 9}
+{"type": "circle", "radius": 8, "color": "green"}
+{"type": "rectngle", "width": 9, "height": 2}
+{"type": "triangle", "base": 3, "height": 2, "extra": 8}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "triangle", "base": 4, "height": 1, "extra": 1}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 3}
+{"type": "circle", "radius": 2, "color": "green"}
+{"type": "rectngle", "width": 2, "height": 7}
+{"type": "polygon", "sides": 6, "length": 3}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 9}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"type": "rectngle", "width": 9, "height": 4}
+{"type": "polygon", "sides": 10, "length": 4}
+{"type": "rectngle", "width": 8, "height": 2}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 2}
+{"type": "rectngle", "width": 5, "height": 9}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 7}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 4}
+{"type": "triangle", "base": 5, "height": 8, "extra": 1}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 6}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 7}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "polygon", "sides": 9, "length": 5}
+{"type": "circle", "radius": 2, "color": "blue"}
+{"type": "triangle", "base": 7, "height": 9, "extra": 8}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 7}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 3, "color": "red"}
+{"type": "polygon", "sides": 4, "length": 9}
+{"type": "circle", "radius": "c"}
+{"type": "polygon", "sides": 3, "length": 8}
+{"type": "triangle", "base": 9, "height": 7, "extra": 6}
+{"type": "rectngle", "width": 4, "height": 6}
+{"type": "rectngle", "width": 6, "height": 7}
+{"type": "polygon", "sides": 3, "length": 6}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 7}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 4}
+{"type": "rectngle", "width": 10, "height": 10}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "polygon", "sides": 4, "length": 9}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 3}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 4}
+{"type": "circle", "radius": 6, "color": "blue"}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 1}
+{"type": "circle", "radius": 4, "color": "blue"}
+{"type": "rectngle", "width": 2, "height": 10}
+{"type": "rectngle", "width": 5, "height": 9}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 2}
+{"type": "polygon", "sides": 4, "length": 10}
+{"type": "triangle", "base": 5, "height": 8, "extra": 10}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 1}
+{"type": "triangle", "base": 10, "height": 4, "extra": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 9}
+{"type": "ellipse", "major_axis": 4, "minor_axis": 10}
+{"type": "rectngle", "width": 1, "height": 6}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 9}
+{"type": "polygon", "sides": 9, "length": 6}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "rectngle", "width": 6, "height": 4}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "triangle", "base": 8, "height": 8, "extra": 7}
+{"type": "triangle", "base": 5, "height": 1, "extra": 2}
+{"type": "polygon", "sides": 9, "length": 9}
+{"type": "rectngle", "width": 8, "height": 3}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "circle", "radius": 3, "color": "blue"}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 2}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 3}
+{"type": "rectngle", "width": 6, "height": 3}
+{"type": "circle", "radius": 9, "color": "blue"}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 7}
+{"type": "polygon", "sides": 8, "length": 3}
+{"type": "rectngle", "width": 9, "height": 10}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "rectngle", "width": 2, "height": 3}
+{"type": "rectngle", "width": 2, "height": 3}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 7}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "circle", "radius": 2, "color": "green"}
+{"type": "triangle", "base": 8, "height": 8, "extra": 5}
+{"type": "circle", "radius": 5, "color": "green"}
+{"type": "circle", "radius": 4, "color": "red"}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 1}
+{"type": "rectngle", "width": 5, "height": 2}
+{"type": "rectngle", "width": 5, "height": 8}
+{"type": "rectngle", "width": 4, "height": 1}
+{"type": "triangle", "base": 10, "height": 4, "extra": 4}
+{"type": "rectngle", "width": 6, "height": 8}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 9}
+{"type": "triangle", "base": 10, "height": 7, "extra": 1}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 6}
+{"type": "triangle", "base": 1, "height": 8, "extra": 1}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 10}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 4}
+{"type": "rectngle", "width": 4, "height": 10}
+{"type": "rectngle", "width": 6, "height": 1}
+{"type": "triangle", "base": 2, "height": 2, "extra": 1}
+{"type": "triangle", "base": 5, "height": 4, "extra": 5}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "polygon", "sides": 7, "length": 1}
+{"type": "rectngle", "width": 7, "height": 8}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 9}
+{"type": "rectngle", "width": 1, "height": 3}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 7}
+{"type": "circle", "radius": 5, "color": "green"}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 1}
+{"type": "polygon", "sides": 6, "length": 9}
+{"type": "polygon", "sides": 9, "length": 4}
+{"type": "polygon", "sides": 5, "length": 6}
+{"type": "polygon", "sides": 5, "length": 5}
+{"type": "rectngle", "width": 3, "height": 2}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 8}
+{"type": "polygon", "sides": 5, "length": 3}
+{"type": "circle", "radius": 4, "color": "green"}
+{"type": "polygon", "sides": "x", "length": -1}
+{"type": "triangle", "base": 5, "height": 3, "extra": 7}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "triangle", "base": 10, "height": 5, "extra": 1}
+{"type": "triangle", "base": 10, "height": 9, "extra": 2}
+{"type": "polygon", "sides": 7, "length": 10}
+{"type": "polygon", "sides": 6, "length": 10}
+{"type": "triangle", "base": 2, "height": 6, "extra": 5}
+{"type": "rectngle", "width": 6, "height": 4}
+{"type": "circle", "radius": 5, "color": "green"}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 7}
+{"type": "polygon", "sides": 10, "length": 9}
+{"type": "rectangle", "width": "a", "height": -1, "extra": 7}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 8}
+{"type": "polygon", "sides": 3, "length": 6}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 9}
+{"type": "polygon", "sides": 4, "length": 9}
+{"type": "circle", "radius": 7, "color": "green"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "triangle", "base": 8, "height": 2, "extra": 1}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "circle", "radius": 1, "color": "blue"}
+{"type": "triangle", "base": 10, "height": 4, "extra": 7}
+{"type": "triangle", "base": 1, "height": 7, "extra": 2}
+{"type": "rectngle", "width": 9, "height": 6}
+{"type": "polygon", "sides": 6, "length": 10}
+{"type": "polygon", "sides": 6, "length": 1}
+{"type": "rectngle", "width": 5, "height": 1}
+{"type": "rectngle", "width": 2, "height": 8}
+{"type": "rectngle", "width": 2, "height": 8}
+{"type": "ellipse", "major_axis": 7, "minor_axis": 3}
+{"type": "triangle", "base": 5, "height": 9, "extra": 6}
+{"type": "triangle", "base": 9, "height": 6, "extra": 7}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "rectngle", "width": 9, "height": 2}
+{"type": "rectngle", "width": 10, "height": 4}
+{"type": "circle", "radius": 4, "color": "blue"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 7}
+{"type": "rectngle", "width": 7, "height": 1}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 5, "height": 2, "extra": 8}
+{"type": "circle", "radius": 5, "color": "blue"}
+{"type": "circle", "radius": 10, "color": "blue"}
+{"type": "rectngle", "width": 3, "height": 2}
+{"type": "polygon", "sides": 9, "length": 10}
+{"type": "rectngle", "width": 7, "height": 3}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 5}
+{"type": "circle", "radius": 6, "color": "red"}
+{"type": "rectngle", "width": 5, "height": 4}
+{"type": "triangle", "base": 5, "height": 2, "extra": 10}
+{"type": "polygon", "sides": 5, "length": 2}
+{"type": "triangle", "base": 9, "height": 2, "extra": 5}
+{"type": "triangle", "base": 6, "height": 5, "extra": 3}
+{"type": "polygon", "sides": 4, "length": 6}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "polygon", "sides": 3, "length": 10}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 9}
+{"type": "rectngle", "width": 6, "height": 2}
+{"type": "triangle", "base": 7, "height": 5, "extra": 6}
+{"type": "circle", "radius": 8, "color": "blue"}
+{"type": "ellipse", "major_axis": 10, "minor_axis": 2}
+{"type": "triangle", "base": 1, "height": 8, "extra": 4}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 8}
+{"type": "polygon", "sides": 8, "length": 10}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 3}
+{"type": "triangle", "base": 3, "height": 7, "extra": 10}
+{"type": "circle", "radius": 5, "color": "red"}
+{"type": "circle", "radius": 6, "color": "red"}
+{"type": "triangle", "base": 6, "height": 9, "extra": 5}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 3}
+{"type": "circle", "radius": 6, "color": "red"}
+{"type": "polygon", "sides": 5, "length": 1}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 1}
+{"type": "triangle", "base": 9, "height": 8, "extra": 10}
+{"type": "triangle", "base": 6, "height": 7, "extra": 3}
+{"type": "rectngle", "width": 7, "height": 9}
+{"type": "circle", "radius": 2, "color": "blue"}
+{"type": "polygon", "sides": 6, "length": 5}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 6}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 9}
+{"type": "circle", "radius": 2, "color": "red"}
+{"type": "polygon", "sides": 8, "length": 7}
+{"type": "rectngle", "width": 4, "height": 3}
+{"type": "polygon", "sides": 6, "length": 2}
+{"type": "ellipse", "major_axis": 6, "minor_axis": 1}
+{"type": "circle", "radius": 6, "color": "green"}
+{"type": "circle", "radius": 8, "color": "green"}
+{"type": "polygon", "sides": "x", "length": -1}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "rectngle", "width": 7, "height": 9}
+{"type": "ellipse", "major_axis": 8, "minor_axis": 7}
+{"type": "rectngle", "width": 3, "height": 9}
+{"type": "triangle", "base": 4, "height": 2, "extra": 5}
+{"type": "triangle", "base": 1, "height": 2, "extra": 8}
+{"type": "rectngle", "width": 5, "height": 4}
+{"type": "triangle", "base": 7, "height": 3, "extra": 2}
+{"type": "ellipse", "major_axis": 1, "minor_axis": 5}
+{"typ": "triangle", "base": -1, "height": "b"}
+{"type": "ellipse", "major_axis": 3, "minor_axis": 9}
+{"type": "rectngle", "width": 2, "height": 3}
+{"type": "triangle", "base": 7, "height": 4, "extra": 4}
+{"type": "circle", "radius": "c"}
+{"type": "ellipse", "major_axis": "y", "minor_axis": "z"}
+{"type": "triangle", "base": 4, "height": 7, "extra": 2}
+{"type": "circle", "radius": 3, "color": "green"}
+{"type": "triangle", "base": 6, "height": 6, "extra": 7}
+{"type": "circle", "radius": "c"}
+{"type": "triangle", "base": 6, "height": 9, "extra": 6}
+{"type": "triangle", "base": 5, "height": 4, "extra": 10}
+{"type": "ellipse", "major_axis": 2, "minor_axis": 4}
+{"type": "triangle", "base": 9, "height": 8, "extra": 4}
+{"type": "ellipse", "major_axis": 9, "minor_axis": 2}
+{"type": "circle", "radius": "c"}
+{"type": "ellipse", "major_axis": 5, "minor_axis": 8}

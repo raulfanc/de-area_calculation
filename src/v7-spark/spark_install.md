@@ -119,15 +119,28 @@ For example, if the file under `${SPARK_HOME}/python/lib/` is `py4j-0.10.9.3-
 export PYTHONPATH="${SPARK_HOME}/python/lib/py4j-0.10.9.5-src.zip:$PYTHONPATH"
 ```
 
+---
+
 6.2 port forwarding (listen to remote port), set up ssh chanel from **local terminal**
+
+- update **vm ip** (gcp vm restarts has new ip)
+```bash
+nano ~/.ssh/config
+```
+
 - **jupyter notebook**
 ```bash
-ssh -i ~/.ssh/gcp -L 8888:localhost:8888 rex@<vm external ip address>
+ssh -i ~/.ssh/gcp -L 8888:localhost:8888 rex@de-learning
+```
+
+- switch the env and start `jupyter notebook`
+```bash
+jupyter notebook .
 ```
 
 - **spark**
 ```bash
-ssh -i ~/.ssh/gcp -L 4040:localhost:4040 rex@<vm external ip address>
+ssh -i ~/.ssh/gcp -L 4040:localhost:4040 rex@de-learning
 ```
 
 http://de-learning.australia-southeast1-b.c.de-learning-20190409.internal:4040
@@ -135,8 +148,15 @@ http://de-learning.australia-southeast1-b.c.de-learning-20190409.internal:4040
 
 - **prefect**
 ```bash
-ssh -i ~/.ssh/gcp -L 4200:localhost:4200 rex@<vm external ip address>
+ssh -i ~/.ssh/gcp -L 4200:localhost:4200 rex@de-learning
 ```
+
+- switch to the env and start `prefect server`
+```bash
+prefect orion start```
+```
+
+---
 
 6.3. run spark job
 ```python
