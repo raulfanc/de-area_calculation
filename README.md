@@ -16,13 +16,15 @@ The application should calculate the total area of all the shapes in the data se
 To demonstrate not just technical ability but also the approach to software development, decision-making, problem-solving and attention to quality and details.
 
 ## Requirements
-1. Develop a modular, maintainable application in Python, preferably using the Prefect framework and Apache Spark for data wrangling, parameterizing with Prefect, and parallelising the data extraction.
+1. Develop a modular, maintainable application in Python, preferably using the Prefect framework and Apache Spark for data wrangling, parameterizing with Prefect
 
-2. The application will ingest JSON data that represents various geometric shapes (currently rectangles, triangles, and circles, but the solution should be extensible for more shapes in the future).
+2. The application will ingest data that represents various geometric shapes (currently rectangles, triangles, and circles, but the solution should be extensible for more shapes in the future).
 
-3. The data can be provided in different formats, with potentially different key names for the shape properties.
+3. The raw data could be containing some invalid data, so the application should handle this.
 
-4. The application should calculate and return the total area of all the shapes in the data set.
+4. the application should manage dataflow from ingestion to computation to storage. (raw)
+
+4. The application should calculate and return the total area of all the shapes in the valid_data set.
 
 5. The solution should handle common issues with JSON data, including missing fields, unexpected values or types, and malformed JSON.
 

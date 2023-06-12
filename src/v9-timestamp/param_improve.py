@@ -1,12 +1,18 @@
-from datetime import timedelta
-import os
-import datetime
 import math
+from datetime import timedelta
+import datetime
+from datetime import datetime
+import os
+from pathlib import Path
 
 from prefect import task, flow
 from prefect.tasks import task_input_hash
 
 from pyspark.sql import SparkSession, functions as F, types as T
+
+
+timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+print_current_time = datetime.now().isoformat()
 
 
 @task(retries=3, cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
@@ -27,13 +33,23 @@ def extract(input_path: str, parquet_path: str):
         T.StructField("radius", T.DoubleType(), True)
     ])
 
-    print(f"Starting data extraction from {input_path} at {datetime.datetime.now().isoformat()}")
+    print(f"Starting data extraction from {input_path} at {print_current_time}")
 
     try:
-        df = spark.read.json(input_path, schema=schema, multiLine=False)
+        file_ext = Path(input_path).suffix
+        # if the file_ext is json or jsonl, then use the schema
+        if file_ext in ['.json', '.jsonl']:
+            df = spark.read.json(input_path, schema=schema, multiLine=False)
+        elif file_ext in ['.csv', '.gz']:
+            df = spark.read.format('csv').option("header", "true").option("inferSchema", "true").load(input_path)
+        elif file_ext == '.parquet':
+            df = spark.read.parquet(input_path)
+        else:
+            raise ValueError(f"Unsupported file extension {file_ext}")
+
         df.write.parquet(parquet_path)
 
-        print(f"Completed data extraction at {datetime.datetime.now().isoformat()}")
+        print(f"Completed data extraction at {print_current_time}")
         return parquet_path
     except Exception as e:
         print(f"Data extraction failed with error: {e}")
@@ -60,7 +76,7 @@ def read_data(parquet_path: str):
 
 @task
 def validate(df):
-    print(f"Starting data validation at {datetime.datetime.now().isoformat()}")
+    print(f"Starting data validation at {print_current_time}")
 
     df_valid = df.filter(
         ((F.col('type') == 'rectangle') & F.col('width').isNotNull() & F.col('height').isNotNull()) |
@@ -70,20 +86,20 @@ def validate(df):
 
     df_invalid = df.subtract(df_valid)
 
-    print(f"Completed data validation at {datetime.datetime.now().isoformat()}")
+    print(f"Completed data validation at {print_current_time}")
 
     return df_valid, df_invalid
 
 
 @task
-def write_data(df_valid, df_invalid, output_path, invalid_data_path):
-    print(f"Starting data writing at {datetime.datetime.now().isoformat()}")
+def write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path):
+    print(f"Starting data writing at {datetime.now().isoformat()}")
 
     try:
-        df_valid.write.json(os.path.join(output_path, "valid_data.jsonl"), mode="overwrite")
-        df_invalid.write.json(os.path.join(invalid_data_path, "invalid_data.jsonl"), mode="overwrite")
+        df_valid.write.json(os.path.join(silver_valid_path, f"valid_data_{timestamp}.jsonl"), mode="overwrite")
+        df_invalid.write.json(os.path.join(silver_invalid_path, f"invalid_data_{timestamp}.jsonl"), mode="overwrite")
 
-        print(f"Completed data writing at {datetime.datetime.now().isoformat()}")
+        print(f"Completed data writing at {datetime.now().isoformat()}")
     except Exception as e:
         print(f"Data writing failed with error: {e}")
         raise
@@ -106,21 +122,21 @@ def calculate_area(df):
 
 
 @flow()
-def flow(input_path: str, parquet_path: str, output_path: str, invalid_data_path: str, threshold: int):
+def flow(input_path: str, parquet_path: str, silver_valid_path: str, silver_invalid_path: str, threshold: int):
     parquet_path = extract(input_path, parquet_path)
     df = read_data(parquet_path)
     df_valid, df_invalid = validate(df)
     total_area = calculate_area(df_valid)
     print(f"Total area: {total_area}")
-    invalid_count = write_data(df_valid, df_invalid, output_path, invalid_data_path)
+    invalid_count = write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path)
     print(f"Invalid count: {invalid_count}")
 
 
 if __name__ == "__main__":
     flow(
         input_path='dummy_data.jsonl',
-        parquet_path='raw',
-        output_path='silver',
-        invalid_data_path='invalid',
-        threshold=10
+        parquet_path='bronze/',
+        silver_valid_path='silver/valid/',
+        silver_invalid_path='silver/invalid/',
+        threshold=5,
     )
