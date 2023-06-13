@@ -12,7 +12,8 @@ The application should calculate the total area of all the shapes in the data se
 - all development included in [src](./src/) folder, contains 10 versions.
 - each version has its own README.md, can run the python code directly.
 - between v1 and v6, use [requirements.txt](./requirements.txt) to install packages.
-- from v7, moving development to google vm, install the [requirements.txt](./requirements.txt) on the vm
+- [jsonl_generator.py](/src/v7-spark/jsonl_generator.py) is used to generate more jsonl (with some random bad data) for testing purpose.
+- from v7, by using `spark`, moving development to google vm, install the [requirements.txt](./requirements.txt) on the vm
 - follow [spark_install.md](./src/v7-spark/spark_install.md)
 
 
