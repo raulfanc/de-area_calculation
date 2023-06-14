@@ -1,3 +1,10 @@
+"""
+renamed shape_management.py to json_val.py
+- manages shapes and validation together in one script
+- more considerations about the input data
+- error handling not to interrupt because I want to validate all the data
+"""
+
 import math
 
 

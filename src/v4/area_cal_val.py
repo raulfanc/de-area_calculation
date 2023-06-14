@@ -1,3 +1,7 @@
+"""
+core calculation remains the same, but validation moved to json_val.py
+"""
+
 import json
 from .json_val import ShapeFactory
 

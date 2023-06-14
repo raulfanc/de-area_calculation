@@ -57,11 +57,14 @@ def read_data(spark, parquet_path: str):
 @task
 def validate(df):
     print(f"Starting data validation at {get_current_time()}")
+    """add negative check since `double` doesn't convert negative value to `null`"""
 
     df_valid = df.filter(
-        ((F.col('type') == 'rectangle') & F.col('width').isNotNull() & F.col('height').isNotNull()) |
-        ((F.col('type') == 'triangle') & F.col('base').isNotNull() & F.col('height').isNotNull()) |
-        ((F.col('type') == 'circle') & F.col('radius').isNotNull())
+        (F.col('type') == 'rectangle' & F.col('width').isNotNull() & F.col('height').isNotNull() & F.col(
+            'width') > 0 & F.col('height') > 0) |
+        (F.col('type') == 'triangle' & F.col('base').isNotNull() & F.col('height').isNotNull() & F.col(
+            'base') > 0 & F.col('height') > 0) |
+        (F.col('type') == 'circle' & F.col('radius').isNotNull() & F.col('radius') > 0)
     )
 
     df_invalid = df.subtract(df_valid)
@@ -73,7 +76,6 @@ def validate(df):
 
 @task
 def write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path, invalid_rate, total_records):
-
     print(f"Starting data writing at {get_current_time()}")
     try:
         df_valid.write.json(timed_path(silver_valid_path, "valid_data", get_timestamp()), mode="overwrite")

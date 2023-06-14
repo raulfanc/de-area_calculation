@@ -1,3 +1,7 @@
+"""
+similar to v1, but separate the shape management and area calculation
+"""
+
 import math
 
 

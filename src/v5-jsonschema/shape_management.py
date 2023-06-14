@@ -1,3 +1,7 @@
+"""
+still the same as v4, it returns shape_info dict will pass to json_val.py
+"""
+
 import math
 
 

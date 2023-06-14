@@ -1,3 +1,7 @@
+"""
+on top of v2, added validation check for `keys`.
+"""
+
 import json
 from .shape_management import ShapeFactory
 

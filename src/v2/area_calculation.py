@@ -1,3 +1,8 @@
+"""
+similar to v1, but separate the shape management and area calculation
+"""
+
+
 import json
 from .shape_management import ShapeFactory
 

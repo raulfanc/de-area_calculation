@@ -1,3 +1,6 @@
+"""
+core function remains the same
+"""
 import json
 from .shape_management import ShapeFactory
 from .json_val import validate_shape_json

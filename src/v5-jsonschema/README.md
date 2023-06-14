@@ -2,6 +2,12 @@
 validating JSON data against a particular schema. It can improve readability and also makes your validation logic more 
 modular, extensible, and maintainable. This can be particularly useful as you plan to add more shape types in the future.
 
+- easier for other developers to understand the code
+- oop mind-set: separete shape management, data validation, and area calculation scripts
+- stop at the first error or generate the full list of errors? depends on business use case
+- full report can help address the issue, further investigation, and fix the data (upstream issue?)
+- what if there is 1 million jsonl??? multiprocessing? spark?
+
 - install `jsonschema` lib
 ```bash
 pip install jsonschema
