@@ -1,4 +1,5 @@
 import math
+import logging
 from datetime import timedelta
 
 from prefect import task, flow
@@ -9,19 +10,10 @@ from slack_notify import send_notification
 from utils import get_timestamp, get_current_time, timed_path
 from config import flow_param_config
 from source_reader import read_from_source
+from spark_config import create_spark_session, stop_spark
 
 
-@task
-def create_spark_session():
-    """
-    Create a SparkSession.
-    """
-    spark = SparkSession.builder \
-        .master("local[*]") \
-        .appName('plexure') \
-        .getOrCreate()
-
-    return spark
+logging.basicConfig(level=logging.INFO)
 
 
 @task(retries=3, cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
@@ -60,11 +52,9 @@ def validate(df):
     """add negative check since `double` doesn't convert negative value to `null`"""
 
     df_valid = df.filter(
-        (F.col('type') == 'rectangle' & F.col('width').isNotNull() & F.col('height').isNotNull() & F.col(
-            'width') > 0 & F.col('height') > 0) |
-        (F.col('type') == 'triangle' & F.col('base').isNotNull() & F.col('height').isNotNull() & F.col(
-            'base') > 0 & F.col('height') > 0) |
-        (F.col('type') == 'circle' & F.col('radius').isNotNull() & F.col('radius') > 0)
+        ((F.col('type') == 'rectangle') & F.col('width').isNotNull() & F.col('height').isNotNull()) |
+        ((F.col('type') == 'triangle') & F.col('base').isNotNull() & F.col('height').isNotNull()) |
+        ((F.col('type') == 'circle') & F.col('radius').isNotNull())
     )
 
     df_invalid = df.subtract(df_valid)
@@ -118,6 +108,7 @@ def flow(input_path: str, parquet_path: str, silver_valid_path: str, silver_inva
     df_valid, df_invalid = validate(df)
     calculate_area(df_valid)
     write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path, invalid_rate, total_records)
+    stop_spark(spark)
 
 
 if __name__ == "__main__":
