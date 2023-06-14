@@ -12,7 +12,6 @@ from config import flow_param_config
 from source_reader import read_from_source
 from spark_config import create_spark_session, stop_spark
 
-
 logging.basicConfig(level=logging.INFO)
 
 
@@ -40,6 +39,7 @@ def read_data(spark, parquet_path: str):
     try:
         df = spark.read.parquet(parquet_path)
         total_records = df.count()
+        print(f"Total records at the beginning: {total_records}")  # debug
         return df, total_records
     except Exception as e:
         print(f"Data reading failed with error: {e}")
@@ -49,15 +49,28 @@ def read_data(spark, parquet_path: str):
 @task
 def validate(df):
     print(f"Starting data validation at {get_current_time()}")
-    """add negative check since `double` doesn't convert negative value to `null`"""
 
-    df_valid = df.filter(
-        ((F.col('type') == 'rectangle') & F.col('width').isNotNull() & F.col('height').isNotNull()) |
-        ((F.col('type') == 'triangle') & F.col('base').isNotNull() & F.col('height').isNotNull()) |
-        ((F.col('type') == 'circle') & F.col('radius').isNotNull())
+    # Define the valid types
+    valid_types = ['rectangle', 'circle', 'triangle']
+
+    # Define a new column which will hold a boolean indicating whether the record is valid or not
+    valid_column = (
+            (F.col('type').isin(valid_types)) &
+            (F.when(F.col('type') == 'rectangle', (F.col('width') > 0) & (F.col('height') > 0))
+             .otherwise(F.when(F.col('type') == 'circle', F.col('radius') > 0)
+                        .otherwise(F.when(F.col('type') == 'triangle', (F.col('base') > 0) & (F.col('height') > 0))
+                                   .otherwise(False))))
     )
 
-    df_invalid = df.subtract(df_valid)
+    # Add the new column to the dataframe
+    df = df.withColumn('isValid', valid_column)
+
+    df_valid = df.filter(F.col('isValid'))
+    df_invalid = df.filter(~F.col('isValid'))
+
+    # print valid and invalid count
+    print(f"Valid records: {df_valid.count()}")
+    print(f"Invalid records: {df_invalid.count()}")
 
     print(f"Completed data validation at {get_current_time()}")
 
@@ -83,7 +96,6 @@ def write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path, inv
         send_notification(
             f"Warning: The invalid data threshold has been reached. There were / "
             f"{invalid_count} invalid records out of {total_records} total records.")
-    print(f"Invalid count: {invalid_count}")
     return invalid_count
 
 
@@ -108,7 +120,7 @@ def flow(input_path: str, parquet_path: str, silver_valid_path: str, silver_inva
     df_valid, df_invalid = validate(df)
     calculate_area(df_valid)
     write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path, invalid_rate, total_records)
-    stop_spark(spark)
+    # stop_spark(spark)
 
 
 if __name__ == "__main__":
