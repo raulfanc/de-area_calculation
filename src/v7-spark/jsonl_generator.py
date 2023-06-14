@@ -1,52 +1,55 @@
-"""
-for testing, include more invlid data, to test the robustness of the datapipeline
-"""
-
 import json
 import random
 
 shape_data = []
 
 for _ in range(1000):
-    # Randomly select a shape
-    shape_type = random.choice(["rectangle", "triangle", "circle", "polygon", "ellipse"])
+    # Randomly select a shape type, including typo versions and additional shapes
+    shape_type = random.choice(["rectangle", "triangle", "circle", "polygon", "ellipse",
+                                "regtngle", "tringle", "circel", "poligon", "elipse"])
 
-    if shape_type == "rectangle":
+    if shape_type in ["rectangle", "regtngle"]:
         if random.random() < 0.1:
-            shape_data.append({"type": "rectangle", "width": "a", "height": -1, "extra": random.randint(1, 10)})
+            # 10% chance to generate invalid data
+            shape_data.append({"type": shape_type, "width": "a", "height": -1, "extra": random.randint(1, 10)})
         else:
-            shape_data.append({"type": "rectngle", "width": random.randint(1, 10), "height": random.randint(1, 10)})
+            # 90% chance to generate valid data
+            shape_data.append({"type": shape_type, "width": random.randint(1, 10), "height": random.randint(1, 10)})
 
-    elif shape_type == "triangle":
+    elif shape_type in ["triangle", "tringle"]:
         if random.random() < 0.1:
-            shape_data.append({"typ": "triangle", "base": -1, "height": "b"})
+            # 10% chance to generate invalid data
+            shape_data.append({"type": shape_type, "base": -1, "height": "b"})
         else:
-            shape_data.append({"type": "triangle", "base": random.randint(1, 10), "height": random.randint(1, 10),
-                               "extra": random.randint(1, 10)})
+            # 90% chance to generate valid data
+            shape_data.append({"type": shape_type, "base": random.randint(1, 10), "height": random.randint(1, 10)})
 
-    elif shape_type == "circle":
+    elif shape_type in ["circle", "circel"]:
         if random.random() < 0.1:
-            shape_data.append({"type": "circle", "radius": "c"})
+            # 10% chance to generate invalid data
+            shape_data.append({"type": shape_type, "radius": "c"})
         else:
-            shape_data.append(
-                {"type": "circle", "radius": random.randint(1, 10), "color": random.choice(["red", "green", "blue"])})
+            # 90% chance to generate valid data
+            shape_data.append({"type": shape_type, "radius": random.randint(1, 10)})
 
-
-    elif shape_type == "polygon":
+    elif shape_type in ["polygon", "poligon"]:
         if random.random() < 0.1:
-            shape_data.append({"type": "polygon", "sides": "x", "length": -1})
+            # 10% chance to generate invalid data
+            shape_data.append({"type": shape_type, "sides": "x", "length": -1})
         else:
-            shape_data.append({"type": "polygon", "sides": random.randint(3, 10), "length": random.randint(1, 10)})
+            # 90% chance to generate valid data
+            shape_data.append({"type": shape_type, "sides": random.randint(3, 10), "length": random.randint(1, 10)})
 
-    elif shape_type == "ellipse":
+    elif shape_type in ["ellipse", "elipse"]:
         if random.random() < 0.1:
-            shape_data.append({"type": "ellipse", "major_axis": "y", "minor_axis": "z"})
+            # 10% chance to generate invalid data
+            shape_data.append({"type": shape_type, "major_axis": "y", "minor_axis": "z"})
         else:
-            shape_data.append(
-                {"type": "ellipse", "major_axis": random.randint(1, 10), "minor_axis": random.randint(1, 10)})
+            # 90% chance to generate valid data
+            shape_data.append({"type": shape_type, "major_axis": random.randint(1, 10), "minor_axis": random.randint(1, 10)})
 
 # Write data to .jsonl file
-with open('dummy_data.jsonl', 'w') as f:
+with open('dummy_data.json', 'w') as f:
     for shape in shape_data:
         json.dump(shape, f)
-        f.write('\n')
+        f.write(',\n')

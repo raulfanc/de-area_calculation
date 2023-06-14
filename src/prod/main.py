@@ -53,7 +53,7 @@ def validate(df):
     # Define the valid types
     valid_types = ['rectangle', 'circle', 'triangle']
 
-    # Define a new column which will hold a boolean indicating whether the record is valid or not
+    # filter out the valid records
     valid_column = (
             (F.col('type').isin(valid_types)) &
             (F.when(F.col('type') == 'rectangle', (F.col('width') > 0) & (F.col('height') > 0))
@@ -62,13 +62,12 @@ def validate(df):
                                    .otherwise(False))))
     )
 
-    # Add the new column to the dataframe
+    # Add the new column to tell valid and invalid records apart
     df = df.withColumn('isValid', valid_column)
-
     df_valid = df.filter(F.col('isValid'))
     df_invalid = df.filter(~F.col('isValid'))
 
-    # print valid and invalid count
+    # debug
     print(f"Valid records: {df_valid.count()}")
     print(f"Invalid records: {df_invalid.count()}")
 
@@ -114,14 +113,20 @@ def calculate_area(df):
 
 @flow()
 def flow(input_path: str, parquet_path: str, silver_valid_path: str, silver_invalid_path: str, invalid_rate: int):
+    # start of the spark session
     spark = create_spark_session()
+    # extract source and write to parquet, and saved in `bronze` folder (landing zone)
     parquet_path = extract(spark, input_path, parquet_path)
+    # read data from landing zone, parquet is good with spark df
     df, total_records = read_data(spark, parquet_path)
+    # validate data
     df_valid, df_invalid = validate(df)
+    # calculate area
     calculate_area(df_valid)
+    # write data to `silver` folder, separate valid and invalid with timestamp names
     write_data(df_valid, df_invalid, silver_valid_path, silver_invalid_path, invalid_rate, total_records)
     # stop_spark(spark)
 
 
 if __name__ == "__main__":
-    flow(**flow_param_config)
+    flow(**flow_param_config)       # go to `config.py` to control the flow parameters
