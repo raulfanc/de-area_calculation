@@ -62,5 +62,3 @@ prod code is at [src/prod](./src/prod)
 - explicitly and more specific about the error-handling
 
 - logging instead of print
-
-

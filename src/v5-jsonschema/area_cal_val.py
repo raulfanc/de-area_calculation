@@ -2,8 +2,8 @@
 core function remains the same
 """
 import json
-from .shape_management import ShapeFactory
-from .json_val import validate_shape_json
+from shape_management import ShapeFactory
+from json_val import validate_shape_json, SHAPE_SCHEMAS
 
 
 def calculate_total_area(json_shapes):
@@ -27,17 +27,28 @@ def calculate_total_area(json_shapes):
     return total_area
 
 
-if __name__ == '__main__':
-    json_shapes_data = [
-        '{"type": "rectangle", "width": 5, "height": 10}',
-        '{"type": "triangle", "base": 2, "height": 3}',
-        '{"type": "circle", "radius": 4}',
-        '{"type": "rectangle", "width": 5, "height": 5}',
-        # ------------original data above this line----------
+def calculate_total_area(json_shapes):
+    """Calculate the total area of all shapes in the given JSON data."""
+    total_area = 0
+    for shape_info in json_shapes:
+        # Only calculate area for valid shapes
+        if validate_shape_json(shape_info):
+            shape_object = ShapeFactory.create_shape(shape_info)
+            total_area += shape_object.area()
 
-        '{"type": "rectangle", "width": "1", "height": -5, "base": 5}',  # validation check
-        '{"type": "rectangle", "width": , "height": -5}',
-    ]
+    return total_area
+
+
+if __name__ == '__main__':
+    # Load JSONL data from a file
+    json_shapes_data = []
+    with open('dummy_data.jsonl', 'r') as f:
+        for line in f:
+            try:
+                shape_info = json.loads(line)
+                json_shapes_data.append(shape_info)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON: {line.strip()}")
 
     # print the total area of all shapes with the format of 2 decimal places
     print(f"{calculate_total_area(json_shapes_data):.2f}")

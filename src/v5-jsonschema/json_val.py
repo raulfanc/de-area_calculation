@@ -41,6 +41,24 @@ SHAPE_SCHEMAS = {
 }
 
 
+def validate_shape_json(shape_info):
+    """capture all errors"""
+    shape_type = shape_info.get('type')
+    schema = SHAPE_SCHEMAS.get(shape_type)
+
+    if schema:
+        validator = jsonschema.Draft7Validator(schema)  # different versions can be used, V7 is the latest 2023
+        """https://python-jsonschema.readthedocs.io/en/latest/validate/#the-validator-protocol"""
+        errors = sorted(validator.iter_errors(shape_info), key=lambda e: e.path)  # great API to handle errors
+        if errors:
+            for error in errors:
+                print(f'Validation error for shape: {error.message}')
+            return False
+        return True
+    else:
+        print(f'Unsupported shape type: "{shape_type}"')
+        return False
+
 # def validate_shape_json(shape_info):
 #     """stop at the first error, good practice"""
 #     shape_type = shape_info.get('type')
@@ -56,22 +74,3 @@ SHAPE_SCHEMAS = {
 #     else:
 #         print(f'Unsupported shape type: "{shape_type}"')
 #         return False
-
-def validate_shape_json(shape_info):
-    """capture all errors"""
-    shape_type = shape_info.get('type')
-    schema = SHAPE_SCHEMAS.get(shape_type)
-
-    if schema:
-        validator = jsonschema.Draft7Validator(schema)                                               # different versions can be used, V7 is the latest 2023
-        """https://python-jsonschema.readthedocs.io/en/latest/validate/#the-validator-protocol"""
-        errors = sorted(validator.iter_errors(shape_info), key=lambda e: e.path)                     # great API to handle errors
-        if errors:
-            for error in errors:
-                print(f'Validation error for shape: {error.message}')
-            return False
-        return True
-    else:
-        print(f'Unsupported shape type: "{shape_type}"')
-        return False
-

@@ -105,4 +105,7 @@ json_data = [
     '{"type": "very round", "width": 5, "height": 5}',  # unsupported shape, not calculated in total area
 ]
 
+
+
+
 print(calculate_total_area(json_data))
